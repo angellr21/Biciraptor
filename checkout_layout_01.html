@@ -1,0 +1,979 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-=1">
+      <title>Checkout-layout-01 - Sportwear</title>
+      <!-- favicon -->
+      <link rel="icon" type="images/favicon" href="images/favicon.png">
+      <!-- menu-mobile CSS -->
+      <link rel="stylesheet" type="text/css" href="css/menu-mobile.css">
+      <!-- revolution CSS -->
+      <link rel="stylesheet" type="text/css" href="css/revolution.css">
+      <link rel="stylesheet" type="text/css" href="css/revolution2.css">
+      <!-- swiper CSS -->
+      <link rel="stylesheet" type="text/css" href="css/swiper.min.css">
+      <link rel="stylesheet" type="text/css" href="css/animate.min.css">
+      <!-- Style CSS -->
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+      
+      <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+      <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+      <!--[if lt IE 9]>
+      <script src="js/ie9/html5shiv.min.js"></script>
+      <script src="js/ie9/respond.min.js"></script>
+      <![endif]-->
+   </head>
+   <body>
+      <div id="wapper">
+         <!-- header -->
+         <!-- PAGE HEADER -->
+         <header id="header" class="header-v4">
+            <div class="header-topbar">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-xs-12 col-md-6 col-sm-6 header-topbarleft">
+                        <div class="link-follow">
+                           <ul class="list-inline list-instyle">
+                              <li><a href=""><i  class="fa fa-skype social"></i></a></li>
+                              <li><a href=""><i  class="fa fa-facebook social"></i></a></li>
+                              <li><a href=""><i  class="fa fa-twitter social"></i></a></li>
+                           </ul>
+                        </div>
+                        <div class="language-currency">
+                           <div class="header-langgue">
+                              <div class="dropdown show-on-hover">
+                                 <button class="btn  dropdown-toggle" type="button"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                 ENG
+                                 </button>
+                                 <ul class="dropdown-menu" >
+                                    <li><a href="#"><img src="images/home4/en.png" alt="">English</a></li>
+                                    <li><a href="#"><img src="images/home4/fr.png" alt="">French</a></li>
+                                    <li><a href="#"><img src="images/home4/hu.png" alt="">Hungari</a></li>
+                                    <li><a href="#"><img src="images/home4/cm.png" alt=""> Cameroon</a></li>
+                                 </ul>
+                              </div>
+                           </div>
+                           <div class="header-currency">
+                              <div class="dropdown show-on-hover">
+                                 <button class="btn dropdown-toggle" type="button"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                 USD
+                                 </button>
+                                 <ul class="dropdown-menu" >
+                                    <li><a href="#">USD - Dola</a></li>
+                                    <li><a href="#">EUR - Euro</a></li>
+                                 </ul>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-xs-12 col-md-6 col-sm-6 header-topbarright">
+                        <div class="hotline">
+                           <p class="hotline">Hotline: 1-800-806-6453</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="header-content">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-md-3 col-sm-3 logo-mb">
+                        <div class="header-logo">
+                           <a href=""><img src="images/logo.png" class="img-responsive" alt="logo"></a>
+                        </div>
+                     </div>
+                     <div class="col-md-7 col-sm-6">
+                        <div class="header-search header-search1 ">
+                           <form  >
+                              <div class="input-group">
+                                 <div class="input-group-btn search-panel">
+                                    <button type="button" id="btn-search" class="btn  dropdown-toggle" data-toggle="dropdown">
+                                    <span id="search_concept">All Categories</span> <span class="caret"></span>
+                                    </button>
+                                    <ul class="dropdown-menu" role="menu">
+                                       <li><a href="#contains">Men</a></li>
+                                       <li><a href="#its_equal">Women</a></li>
+                                       <li><a href="#greather_than">New Arrival </a></li>
+                                       <li><a href="#less_than">Back in Stock </a></li>
+                                    </ul>
+                                 </div>
+                                 <input type="hidden" name="search_param" value="all" id="search_param">         
+                                 <input type="text" class="form-control" name="x" placeholder="Search ...">
+                                 <span class="input-group-btn">
+                                 <button data-toggle="tooltip" data-placement="top" title="Search" id="btn-submit" class="btn " type="button"><img src="images/icon-search.png" alt=""></button>
+                                 </span>
+                              </div>
+                           </form>
+                        </div>
+                     </div>
+                     <div class="col-md-2 col-sm-3 cart-search-user-mb">
+                        <div class="header-cart-user">
+                           <div class="search-mb">
+                              <a href="#" class="search-header4" title=""><img src="images/icon-search.png" alt=""></a>
+                           </div>
+                           <div class="header-user">
+                              <a href=""><img src="images/icon-user.png" alt=""></a>
+                           </div>
+                           <div class="header-cart ">
+                              <div class="mini-cart">
+                                 <a href="#">
+                                 <img src="images/icon-cart.png" alt="">
+                                 <span class="cart-qty">0</span>
+                                 </a>
+                                 <!-- cart-control -->
+                                 <div class="shop-item ">
+                                    <div class="widget_shopping_cart_content">
+                                       <ul class="cart-list list-unstyled">
+                                          <li class="clearfix">
+                                             <a class="p-thumb" href="single-product.html">
+                                             <img src="images/home4/products/300x300.jpg" alt="">
+                                             </a>
+                                             <div class="p-info">
+                                                <a class="p-title" href="#">Phasellus Vel Hendrerit</a>
+                                                <div class="price">
+                                                   <span class="amount">$35.00</span>
+                                                </div>
+                                                <span class="p-qty">QTY: 01</span>
+                                             </div>
+                                          </li>
+                                          <li class="clearfix">
+                                             <a class="p-thumb" href="single-product.html">
+                                             <img src="images/home4/products/300x300.jpg" alt="">
+                                             </a>
+                                             <div class="p-info">
+                                                <a class="p-title" href="#">Phasellus Vel Hendrerit</a>
+                                                <div class="price">
+                                                   <span class="amount">$35.00</span>
+                                                </div>
+                                                <span class="p-qty">QTY: 01</span>
+                                             </div>
+                                          </li>
+                                       </ul>
+                                       <p class="total"><strong>Total:</strong> <span class="amount">$105.00</span></p>
+                                       <p class="buttons">
+                                          <a class="button dark wc-forward" href="">Check out</a>
+                                       </p>
+                                    </div>
+                                 </div>
+                                 <!--end-cart-control -->
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </header>
+         <!-- /header -->
+         <!-- nav -->
+         <div class="header-v4">
+            <div class="header-nav">
+               <div id='cssmenu' >
+                  <ul>
+                     <li><a href='#'>Home</a></li>
+                     <li class=' has-sub'><a href='#'>Men</a>
+                        <ul>
+                           <li class='has-sub'><a href='#'>Basketball</a>
+                              <ul>
+                                 <li><a href='#'>Hyperdrunk</a></li>
+                                 <li><a href='#'>LeBron</a></li>
+                                 <li><a href='#'>Kobe</a></li>
+                              </ul>
+                           </li>
+                           <li class='has-sub'><a href='#'>Running</a>
+                              <ul>
+                                 <li><a href='#'>Tuned Speed</a></li>
+                                 <li><a href='#'>Natural Motion</a></li>
+                                 <li><a href='#'>Ultra Comfort</a></li>
+                              </ul>
+                           </li>
+                           <li class='has-sub'><a href='#'>Training</a>
+                              <ul>
+                                 <li><a href='#'>Fast</a></li>
+                                 <li><a href='#'>Dynamic</a></li>
+                                 <li><a href='#'>Strong</a></li>
+                              </ul>
+                           </li>
+                           <li class='has-sub'><a href='#'>Gold</a>
+                              <ul>
+                                 <li><a href='#'>Fl Impact</a></li>
+                                 <li><a href='#'>TW</a></li>
+                                 <li><a href='#'>Lunar</a></li>
+                              </ul>
+                           </li>
+                           <li class='has-sub'><a href='#'>Football</a>
+                              <ul>
+                                 <li><a href='#'>Vapor</a></li>
+                                 <li><a href='#'>Alpha</a></li>
+                                 <li><a href='#'>Lunarwarerly</a></li>
+                              </ul>
+                           </li>
+                           <li class='has-sub'><a href='#'>Baseball</a>
+                              <ul>
+                                 <li><a href='#'>TW 15</a></li>
+                                 <li><a href='#'>Luna Control 3</a></li>
+                                 <li><a href='#'>Lunarwarerly</a></li>
+                              </ul>
+                           </li>
+                        </ul>
+                     </li>
+                     <li><a href='#'>New Arrival</a></li>
+                     <li><a href='#'>Back in Stock</a></li>
+                     <li><a href='#'>Blog</a></li>
+                     <li><a href='#'>About Us</a></li>
+                     <li><a href='#'>Contact Us</a></li>
+                  </ul>
+               </div>
+               <div class="container">
+                  <div class="row">
+                     <div class="col-md-12">
+                        <nav class="navbar ">
+                          <div class="">
+                            <div class="collapse navbar-collapse">
+                               <ul class="nav navbar-nav">
+                                <li class="li-lever-0">
+                                   <a class="active" href="index_layout_01.html">
+                                        <span class="icon-home"></span>
+                                   </a>
+                                </li>
+                                <li class="li-lever-0">
+                                  <a href="#">Men </a>
+                                 <div class="sub-menu megamenu" >
+                                    <div class="">
+                                       <div class="row">
+                                          <div class="col-md-2">
+                                             <div class="sub-megamenu">
+                                                <div class="item-menu">
+                                                   <h4 class="menu-title"><a href="" title="">Basketball</a></h4>
+                                                   <ul>
+                                                      <li><a href="">Hyperdrunk</a></li>
+                                                      <li><a href="">LeBron</a></li>
+                                                      <li><a href="">Kobe</a></li>
+                                                   </ul>
+                                                   <div class="about-menu">
+                                                      <a href="" title="">All Basketball </a>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                          <div class="col-md-2">
+                                             <div class="sub-megamenu">
+                                                <div class="item-menu">
+                                                   <h4 class="menu-title"><a href="" title="">Running</a></h4>
+                                                   <ul>
+                                                      <li><a href="">Tuned  Speed</a></li>
+                                                      <li><a href="">Natural Motion</a></li>
+                                                      <li><a href="">Ultra fort</a></li>
+                                                   </ul>
+                                                   <div class="about-menu">
+                                                      <a href="" title="">All Running </a>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                          <div class="col-md-2">
+                                             <div class="sub-megamenu">
+                                                <div class="item-menu">
+                                                   <h4 class="menu-title"><a href="" title="">Training</a></h4>
+                                                   <ul>
+                                                      <li><a href="">Fast</a></li>
+                                                      <li><a href="">Dynamic</a></li>
+                                                      <li><a href="">Strong</a></li>
+                                                   </ul>
+                                                   <div class="about-menu">
+                                                      <a href="" title="">All Training </a>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                          <div class="col-md-2">
+                                             <div class="sub-megamenu">
+                                                <div class="item-menu">
+                                                   <h4 class="menu-title"><a href="" title="">Golf</a></h4>
+                                                   <ul>
+                                                      <li><a href="">Fl Impact</a></li>
+                                                      <li><a href="">TW</a></li>
+                                                      <li><a href="">Lunar</a></li>
+                                                   </ul>
+                                                   <div class="about-menu">
+                                                      <a href="" title="">All Gold </a>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                          <div class="col-md-2">
+                                             <div class="sub-megamenu">
+                                                <div class="item-menu">
+                                                   <h4 class="menu-title"><a href="" title="">Football</a></h4>
+                                                   <ul>
+                                                      <li><a href="">Vapor</a></li>
+                                                      <li><a href="">Alpha Pro</a></li>
+                                                      <li><a href="">Lunarwarerly</a></li>
+                                                   </ul>
+                                                   <div class="about-menu">
+                                                      <a href="" title="">All Football </a>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                          <div class="col-md-2">
+                                             <div class="sub-megamenu">
+                                                <div class="item-menu">
+                                                   <h4 class="menu-title"><a href="" title="">Baseball</a></h4>
+                                                   <ul>
+                                                      <li><a href="">Hyperdrunk</a></li>
+                                                      <li><a href="">LeBron</a></li>
+                                                      <li><a href="">Kobe</a></li>
+                                                   </ul>
+                                                   <div class="about-menu">
+                                                      <a href="" title="">All Baseball </a>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+
+                                       </div>
+                                    </div>
+                                 </div>
+                                </li >
+                                <li class="li-lever-0"><a href="">Women</a>
+                                </li>
+                                <li class="li-lever-0"><a href="">New Arrival</a>
+                                 <div class="sub-menu sub-menu-lever2 megamenu "  >
+                                    <div class="">
+                                       <div class="row">
+                                          <div class="col-md-3">
+                                       <div class="item-inner">
+                                          <div class="box-images">
+                                             <a class="product-image" href="product_single_post_01.html" title=""><img src="images/home4/products/300x300.jpg" alt=""></a>
+                                          </div>
+                                          <div class="product-shop">
+                                             <h2 class="product-name">
+                                             <a href="product_single_post_01.html" title="">Nike free trainer 3.0 v4</a>
+                                             </h2>
+                                             <div class="sub-name">Mens Trainning Shoe</div>
+                                             <div class="price-box">
+                                                <p class="special-price">
+                                                   <span class="price-label">Special Price</span>
+                                                   <span class="price">$120.00</span>
+                                                </p>
+                                                <p class="old-price">
+                                                   <span class="price-label">Special Price</span>
+                                                   <span class="price">$89.00</span>
+                                                </p>
+                                                
+                                             </div>
+                                             <ul class="add-to-links">
+                                                <li class="cart">
+                                                <a href="" class="view-link" title="">Add to bag</a>
+                                                </li>
+                                                <li class="wishlist"><a href="" class="link-wishlist" data-toggle="tooltip" data-placement="top" title="Add to Wishlist"><i class="fa fa-heart"></i></a></li>
+                                             </ul>
+                                          </div>
+                                          
+                                       </div>
+                                          </div>
+                                          <div class="col-md-3">
+                                       <div class="item-inner">
+                                          <div class="box-images">
+                                             <a class="product-image" href="product_single_post_01.html" title=""><img src="images/home4/products/300x300.jpg" alt=""></a>
+                                          </div>
+                                          <div class="product-shop">
+                                             <h2 class="product-name">
+                                             <a href="product_single_post_01.html" title="">Nike Lunaracer</a>
+                                             </h2>
+                                             <div class="sub-name">Mens Trainning Shoe</div>
+                                             <div class="price-box">
+                                                <p class="special-price">
+                                                   <span class="price-label">Special Price</span>
+                                                   <span class="price">$220.00</span>
+                                                </p>
+                                                <p class="old-price">
+                                                   <span class="price-label">Special Price</span>
+                                                   <span class="price">$89.00</span>
+                                                </p>
+                                                
+                                             </div>
+                                             <ul class="add-to-links">
+                                                <li class="cart">
+                                                <a href="" class="view-link" title="">Add to bag</a>
+                                                </li>
+                                                <li class="wishlist"><a href="" class="link-wishlist" data-toggle="tooltip" data-placement="top" title="Add to Wishlist"><i class="fa fa-heart"></i></a></li>
+                                             </ul>
+                                          </div>
+                                          
+                                       </div>
+                                          </div>
+                                          <div class="col-md-6">
+                                             <div class="bg-images-newarrival scale">
+                                                <img src="images/home4/541x408.jpg"  alt="">
+                                             </div>
+                                          </div>
+                                          
+
+                                       </div>
+                                    </div>
+                                 </div>
+                                </li>
+                                <li class="li-lever-0"><a href="">Back in Stock</a></li>
+                                <li class="li-lever-0"><a href="blog_layout_01.html">Blog</a></li>
+                                <li class="li-lever-0"><a href="about_layout_01.html">About Us</a></li>
+                                <li class="li-lever-0"><a href="contact_layout_01.html">Contact Us</a></li>
+                              </ul>
+                              
+                              
+                            </div><!-- /.navbar-collapse -->
+                          </div><!-- /.container-fluid -->
+                        </nav>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- end-nav -->
+         <section class="main-home">
+            <div class="container">
+               <div class="row">
+                  <!-- breadcrumb -->
+                  <div class="col-md-12">
+                     <div class="breadcrumb-grid breadcrumb-about">
+                        <ul class="breadcrumb">
+                           <li><a href="#">Home</a></li>
+                           <li class="active"><a href="#">Checkout</a></li>
+                        </ul>
+                     </div>
+                  </div>
+                  <!-- end breadcrumb -->
+               </div>
+               <div class="row checkout-page">
+                  <div class="col-md-9">
+                     <div class="checkout-left">
+                        <div class="title-block">
+                           <h2>Check out</h2>
+                        </div>
+                        <!--  -->
+                        <div class="checkout-left-content">
+                           <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                             <div class="panel panel-default">
+                               <div class="panel-heading" role="tab" id="headingOne">
+                                 <h4 class="panel-title">
+                                   <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                     <span>1</span> Checkout Method 
+                                   </a>
+                                 </h4>
+                               </div>
+                               <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                                 <div class="panel-body">
+                                   <div class="row">
+                                    <div class="col-md-6 panel-body-left">
+                                       <h3>Checkout As a Guest Or Register</h3>
+                                       <form  class="form-register" method="get" accept-charset="utf-8">
+                                          <div class="form-resgister-text">
+                                             <p><span>Register with us for future convenience:</span></p>
+                                          <div class="checkbox">
+                                             <input type="radio" value="cheque" name="payment_method" id="payment_method">
+                                             <label for="payment_method">Checkout a Guest </label>
+                                          </div>
+                                          <div class="checkbox">
+                                             <input type="radio" value="cheque" name="payment_method" id="payment_method1">
+                                             <label for="payment_method1">Register  </label>
+                                          </div>
+                                          <p>Register and save time!</p>   
+                                          <p><span>Register with us for future convenience:</span></p>                                    
+                                          <p>Fast and easy check out </p>  
+                                          <p >Easy access to your order history and statuts</p>
+                                          </div>
+                                          
+                                          <a class="button " href="">Continue</a>                                 
+                                       </form>
+                                    </div>
+                                    <div class="col-md-6 panel-body-left panel-body-right">
+                                       <h3>Login</h3>
+                                       <form class="form-login"  method="get" accept-charset="utf-8">
+                                          <div class="form-login-text">
+                                             <p>Already registered ?</p>
+                                             <p><span>Please log in below:</span></p>
+                                             <div class="form-group">
+                                                 <label >Name <span>*</span></label>
+                                                 <input  class="form-control input-post"  placeholder="">
+                                             </div>
+                                             <div class="form-group">
+                                                 <label >Email <span>*</span></label>
+                                                 <input  class="form-control input-post"  placeholder="">
+                                             </div>
+                                             <p class="forgotpass"><a href="" title="">For got your passwork ? </a></p>
+                                          </div>
+                                          
+                                          <a class="button white " href="">Login</a>
+                                       </form>
+                                    </div>
+                                   </div>
+                                 </div>
+                               </div>
+                             </div>
+                             <div class="panel panel-default">
+                               <div class="panel-heading" role="tab" id="headingTwo">
+                                 <h4 class="panel-title">
+                                   <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                     <span>2</span> Billing information
+                                   </a>
+                                 </h4>
+                               </div>
+                               <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                                 <div class="panel-body text-form">
+                                    <h3>Login information </h3>
+                                    <div class="row">
+                                       <form class="form-horizontal" >
+                                                    <fieldset>
+                                                      
+                                                      <div class="form-group">
+                                                        <label class="col-sm-3 control-label" for="card-holder-name">Email *</label>
+                                                        <div class="col-sm-9">
+                                                          <input type="text" class="form-control" name="card-holder-name" id="card-holder-name1" placeholder="Card Holder's Name">
+                                                        </div>
+                                                      </div>
+                                                      <div class="form-group">
+                                                        <label class="col-sm-3 control-label" >Prefix *</label>
+                                                        <div class="col-sm-9">
+                                                          <select  class="disabledSelect form-control col-sm-3"  >
+                                                                <option>Prefix *</option>
+                                                                <option value="01">a</option>
+                                                                <option value="02">b</option>
+                                                                <option value="03">c</option>
+                                                                <option value="04">d</option>
+                                                                
+                                                                
+                                                              </select>
+                                                        </div>
+                                                      </div>
+                                                      <div class="form-group">
+                                                        <label class="col-sm-3 control-label" for="card-holder-name">First Name *</label>
+                                                        <div class="col-sm-9">
+                                                          <input type="text" class="form-control" name="card-holder-name" id="card-holder-name" placeholder="Card Holder's Name">
+                                                        </div>
+                                                      </div>
+                                                      <div class="form-group">
+                                                        <label class="col-sm-3 control-label" for="card-holder-name">Last Name *</label>
+                                                        <div class="col-sm-9">
+                                                          <input type="text" class="form-control" name="card-holder-name" id="card-holder-name2" placeholder="Card Holder's Name">
+                                                        </div>
+                                                      </div>
+                                                      <div class="form-group">
+                                                        <label class="col-sm-3 control-label" >Birthday (Optional)</label>
+                                                        <div class="col-sm-9">
+                                                          <div class="row">
+                                                            <div class="col-xs-3">
+                                                              <select  class="disabledSelect form-control col-sm-3"  >
+                                                                <option>Date</option>
+                                                                <option value="01">1</option>
+                                                                <option value="02">2</option>
+                                                                <option value="03">3</option>
+                                                                <option value="04">4</option>
+                                                                <option value="05">5</option>
+                                                                <option value="06">6</option>
+                                                                <option value="07">7</option>
+                                                                <option value="08">8</option>
+                                                                <option value="09">9</option>
+                                                                <option value="10">10</option>
+                                                                <option value="11">11</option>
+                                                                <option value="12">12</option>
+                                                                <option value="12">13</option>
+                                                                <option value="12">14</option>
+                                                                <option value="12">15</option>
+                                                                <option value="12">16</option>
+                                                              </select>
+                                                            </div>
+                                                            <div class="col-xs-3">
+                                                              <select  class="disabledSelect form-control col-sm-3"  >
+                                                                <option>Month</option>
+                                                                <option value="01">Jan (01)</option>
+                                                                <option value="02">Feb (02)</option>
+                                                                <option value="03">Mar (03)</option>
+                                                                <option value="04">Apr (04)</option>
+                                                                <option value="05">May (05)</option>
+                                                                <option value="06">June (06)</option>
+                                                                <option value="07">July (07)</option>
+                                                                <option value="08">Aug (08)</option>
+                                                                <option value="09">Sep (09)</option>
+                                                                <option value="10">Oct (10)</option>
+                                                                <option value="11">Nov (11)</option>
+                                                                <option value="12">Dec (12)</option>
+                                                              </select>
+                                                            </div>
+                                                            <div class="col-xs-3">
+                                                              <select  class="disabledSelect form-control col-sm-3" >
+                                                               <option value="13">Year</option>
+                                                                <option value="13">2013</option>
+                                                                <option value="14">2014</option>
+                                                                <option value="15">2015</option>
+                                                                <option value="16">2016</option>
+                                                                <option value="17">2017</option>
+                                                                <option value="18">2018</option>
+                                                                <option value="19">2019</option>
+                                                                <option value="20">2020</option>
+                                                                <option value="21">2021</option>
+                                                                <option value="22">2022</option>
+                                                                <option value="23">2023</option>
+                                                              </select>
+                                                            </div>
+                                                          </div>
+                                                        </div>
+                                                      </div>
+                                                      <div class="form-group">
+                                                        <label class="col-sm-3 control-label" for="cvv">Telephone *</label>
+                                                        <div class="col-sm-9">
+                                                          <input  class="form-control"  id="cvv" placeholder="Security Code">
+                                                        </div>
+                                                      </div>
+                                                      <div class="form-group">
+                                                        <label class="col-sm-3 control-label" >Company</label>
+                                                        <div class="col-sm-9">
+                                                          <input type="text" class="form-control"   placeholder="Security Code">
+                                                        </div>
+                                                      </div>
+                                                      <div class="form-group">
+                                                        <label class="col-sm-3 control-label" >Address *</label>
+                                                        <div class="col-sm-9">
+                                                          <input type="text" class="form-control"   placeholder="Security Code">
+                                                        </div>
+                                                      </div>
+                                                      <div class="form-group">
+                                                        <label class="col-sm-3 control-label" >Address (2) </label>
+                                                        <div class="col-sm-9">
+                                                          <input type="text" class="form-control"  placeholder="Security Code">
+                                                        </div>
+                                                      </div>
+                                                      <div class="form-group">
+                                                        <label class="col-sm-3 control-label" >Comment </label>
+                                                        <div class="col-sm-9">
+                                                          <textarea class="form-control form-comment" rows="3"></textarea>
+                                                        </div>
+                                                      </div>
+                                                      <div class="form-group">
+                                                        <label class="col-sm-3 control-label" >Zip/Postal Code *</label>
+                                                        <div class="col-sm-9">
+                                                          <input type="text" class="form-control"  placeholder="Security Code">
+                                                        </div>
+                                                      </div>
+                                                      <div class="form-group">
+                                                        <label class="col-sm-3 control-label" >City * </label>
+                                                        <div class="col-sm-9">
+                                                          <input type="text" class="form-control"  placeholder="Security Code">
+                                                        </div>
+                                                      </div>
+                                                      <div class="form-group">
+                                                        <label class="col-sm-3 control-label" >Country</label>
+                                                        <div class="col-sm-9">
+                                                              <select id="disabledSelect" class="form-control "  >
+                                                                <option>Country</option>
+                                                              </select>
+                                                        </div>
+                                                      </div>
+                                                      <div class="form-group">
+                                                        <label class="col-sm-3 control-label" >State/province</label>
+                                                        <div class="col-sm-9">
+                                                              <select id="disabledSelect" class="form-control "  >
+                                                                <option>State/province</option>
+                                                              </select>
+                                                        </div>
+                                                      </div>
+
+                                                      <div class="form-group">
+                                                        <div class="col-sm-offset-3 col-sm-9">
+                                                         <p class="form-submit">
+                                                            <a class="button hover-rhv-float" href="" title="">CONTINUE</a>
+                                                         </p>
+                                                        </div>
+                                                      </div>
+                                                    </fieldset>
+                                                </form>
+                                       
+                                    </div>
+                     
+                                 </div>
+                               </div>
+                             </div>
+                             <div class="panel panel-default">
+                               <div class="panel-heading" role="tab" id="headingThree">
+                                 <h4 class="panel-title">
+                                   <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                     <span>3</span> Shipping information
+                                   </a>
+                                 </h4>
+                               </div>
+                               <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                                 <div class="panel-body">
+                                   
+                                 </div>
+                               </div>
+                             </div>
+                             <div class="panel panel-default">
+                               <div class="panel-heading" role="tab" id="headingFour">
+                                 <h4 class="panel-title">
+                                   <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                     <span>4</span> Shipping Method
+                                   </a>
+                                 </h4>
+                               </div>
+                               <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+                                 <div class="panel-body">
+                                   
+                                 </div>
+                               </div>
+                             </div>
+                             <div class="panel panel-default">
+                               <div class="panel-heading" role="tab" id="headingFive">
+                                 <h4 class="panel-title">
+                                   <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                     <span>5</span> Payment information
+                                   </a>
+                                 </h4>
+                               </div>
+                               <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
+                                 <div class="panel-body payment-information">
+                                       <div class="row">
+                                          <div class="col-md-1 col-sm-4 "></div>
+                                          <div class="col-md-10 col-sm-8 col-xs-12">
+                                             <table class="table table-v4">
+                                                <thead>
+                                                    <tr>
+                                                        <th><p class="pull-left">PRODUCT</p></th>
+                                                        <th><p class="pull-right">TOTALS</p></th>
+                                                                           
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    
+                                                   <tr class="tr1">
+                                                      <td>Nike free trainer 3.0 v4 X 01</td>
+                                                      <td>120$</td>
+                                                   </tr>
+                                                   <tr class="tr2">
+                                                      <td>Nike free trainer 3.0 v4 X 01</td>
+                                                      <td>120$</td>
+                                                   </tr>
+                                                   <tr class="tr3">
+                                                      <td>Nike free trainer 3.0 v4 X 01</td>
+                                                      <td>120$</td>
+                                                   </tr>
+                                             
+                                                    <tr class="tr-two">
+                                                        <td><p>Subtotals</p></td>
+                                                        <td>360$</td>
+                                                    </tr>
+                                                    <tr class="tr-three">
+                                                        <td><p>Shipping</p></td>
+                                                        <td><p>Free Shipping</p></td>
+                                                    </tr>
+                                                    <tr class="tr-child">
+                                                        <td><p>Order Total</p></td>
+                                                        <td>240$</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                          </div>
+                                          <div class="col-md-1"></div>
+                                       </div>
+                                       
+                                 </div>
+                               </div>
+                             </div>
+                             <div class="panel panel-default">
+                               <div class="panel-heading" role="tab" id="headingSix">
+                                 <h4 class="panel-title">
+                                   <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                     <span>6</span> Order Revew
+                                   </a>
+                                 </h4>
+                               </div>
+                               <div id="collapseSix" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSix">
+                                 <div class="panel-body order-review-six">
+                                   <div class="text-form text-order">
+                                     <div class="top-order top-content">
+                                       <label class="top-input">
+                                          <input checked="checked" value="cheque" name="payment_method"  type="radio"> DIRECT BANK TRANSFER
+                                       </label>
+                                     </div>
+                                     <div class="list-product">
+                                       <p>Make your payment directly into our bank account. Please use your Order ID as the payment reference. Your order won’t be shipped until the funds have cleared in our account.</p>
+
+                                     </div>
+                                     <div class="top-order top-content ">
+                                       <label class="top-input">
+                                          <input checked="checked" value="cheque" name="payment_method"  type="radio">CHEQUE PAYMENT
+                                       </label>
+                                     </div>
+                                    <div class="sub-totar">
+                                       <label class="top-input">
+                                          <input checked="checked" value="cheque" name="payment_method"  type="radio">PAYPAL
+
+                                       </label>
+                                       <img src="images/checkou.png" alt="">
+
+                                    </div>
+                                    <div class="sub-totar sub-bottom">
+                                       <p>Pay via PayPal you can pay with your credit card if you don’t have a PayPal account.</p>
+                                    </div>
+                                 </div>
+                                 </div>
+                               </div>
+                             </div>
+                           </div>
+                        </div>
+                        <!--  -->
+                     </div>
+                  </div>
+                  <!--  -->
+                  <div class="col-md-3">
+                     <div class="checkout-right">
+                        <div class="title-block">
+                           <h2>Check out Progress</h2>
+                        </div>
+                        <ul class="checkout-right-ul">
+                           <li><a href="" title="">Bling adress</a></li>
+                           <li><a href="" title="">Shipping Method</a></li>
+                           <li><a href="" title="">Shipping Adress</a></li>
+                           <li><a href="" title="">Payment Method</a></li>
+                        </ul>
+                     </div>
+                  </div>
+                        
+               </div>
+            </div>
+         </section>
+         <!-- footer -->
+         <footer class="footer-v4">
+            <div class="top-footer">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-lg-6 col-md-6 col-sm-6 top-footer-left contact-footer-left">
+                        <h2>Sports<span>wear</span></h2>
+                        <h5>Open: 8:00 AM - Close: 17:00 PM</h5>
+                        <p>Some people have hobbies. We have shoes. At Sportwear, shoes aren't just a part of our name, they are our passion. Here you'll find an incredible selection of fashionable...</p>
+                        <ul class="contact-adress">
+                           <li><span><img src="images/icon-maps.png" alt=""></span>Foley, 2601 South McKenzie Street</li>
+                           <li><span><img src="images/icon-phone.png" alt=""></span>1-800-806-6453</li>
+                           <li><span><img src="images/icon-evelop.png" alt=""></span>SportWear@domain.com</li>
+                        </ul>
+                     </div>
+                     <div class="col-lg-6 col-md-6 col-sm-6 top-footer-right ">
+                        <div class="newsletter-v2">
+                           <h2>Newsletter</h2>
+                           <form  id="newsletter-validate-detail">
+                              <div class="subcribe-info">
+                                 <input class="input-mail input-text required-entry validate-email" type="text" name="email" id="newsletter" title="Sign up for our newsletter" placeholder="Enter Your Mail...">
+                                 <button type="submit" title="Subscribe" class="button"><span>Subscribe</span></button>
+                              </div>
+                           </form>
+                           <p>Receive email-only deals, special offers &amp; product exclusives</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="footer">
+               <div class="header-footer">
+                  <div class="container">
+                     <div class="row">
+                        <div class="col-md-6 col-sm-6 footer-info-left  ">
+                           <div class="row">
+                              <div class="col-md-4 col-sm-4">
+                                 <h3>Category</h3>
+                                 <ul>
+                                    <li><a href="#">New Arival</a></li>
+                                    <li><a href="#">Featured Products</a></li>
+                                    <li><a href="#">Bestseller</a></li>
+                                    <li><a href="#">Onsale Products</a></li>
+                                    <li><a href="#">Special Products</a></li>
+                                 </ul>
+                              </div>
+                              <div class="col-md-4 col-sm-4">
+                                 <h3>Get Help</h3>
+                                 <ul>
+                                    <li><a href="#">Order Status</a></li>
+                                    <li><a href="#">Shipping and Delivery</a></li>
+                                    <li><a href="#">Returns</a></li>
+                                    <li><a href="#">Pay ment Options</a></li>
+                                    <li><a href="#">Contact Us</a></li>
+                                 </ul>
+                              </div>
+                              <div class="col-md-4 col-sm-4">
+                                 <h3>Link</h3>
+                                 <ul>
+                                    <li><a href="#">Home</a></li>
+                                    <li><a href="#">About us</a></li>
+                                    <li><a href="#">Back in Stock</a></li>
+                                    <li><a href="#">Blog </a></li>
+                                    <li><a href="#">Advanced Search</a></li>
+                                 </ul>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6 footer-info-right">
+                           <div class="footer-support">
+                              <h2>1-800-806-6453</h2>
+                              <p>Support <span>8:00</span> Am - <span>21:00</span> Pm</p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="bottom-footer">
+                  <div class="footer-copyright ">
+                     <div class="container">
+                        <div class="row">
+                              <div class="col-md-6 col-sm-7 col-60">
+                                 <address class="copyright">Copyright © 2016 by <a href="#">Sportwear </a>. All Rights Reserved.</address>
+                              </div>
+                              <div class="col-md-6 col-sm-5 col-40">
+                                 <div class="payment">
+                                    <a href="#" class="visa"><i class="fa fa-cc-visa"></i></a> 
+                                    <a href="#" class="american-express"><i class="fa fa-cc-amex"></i></a> 
+                                    <a href="#" class="discover"><i class="fa fa-cc-discover"></i></a>
+                                    <a href="#" class="mastercard"><i class="fa fa-cc-mastercard"></i></a>
+                                 </div>
+                              </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </footer>
+         <!--end footer -->
+      </div>
+      <!-- jQuery -->
+      <script src="js/jquery-1.11.min.js"></script>
+      <!-- Bootstrap JavaScript -->
+      <script src="js/bootstrap.min.js"></script>
+      <!-- menu-mobile JavaScript -->
+      <script src="js/menu-mobile.js"></script>
+      <!-- Wocommerce JavaScript -->
+      <script src="js/woocommerce.js"></script>
+      <!-- Swiper JavaScript -->
+      <script src="js/swiper.min.js"></script>
+      <script>
+         /** Tooltip **/ 
+          $('[data-toggle="tooltip"]').tooltip();
+         
+      </script>
+      <script>
+         //PAGE ABOUT
+            $(function () { 
+              $('.progress-bar [data-toggle="tooltip"]').tooltip({trigger: 'manual'}).tooltip('show');
+            });  
+         
+            $( window ).scroll(function() {   
+              // if($( window ).scrollTop() > 10){   scroll down abit and get the action   
+              $(".progress-bar").each(function(){
+                each_bar_width = $(this).attr('aria-valuenow');
+                $(this).width(each_bar_width + '%');
+              });
+                   
+             //  }  
+            });
+      </script>
+      <!-- main JavaScript -->
+      <script src="js/functions.js"></script>   
+   </body>
+</html>

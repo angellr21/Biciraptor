@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>About-layout-01 - Sportwear</title>
+      <!-- favicon -->
+      <link rel="icon" type="images/favicon" href="images/favicon.png">
+      <!-- menu-mobile CSS -->
+      <link rel="stylesheet" type="text/css" href="css/menu-mobile.css">
+      <!-- revolution CSS -->
+      <link rel="stylesheet" type="text/css" href="css/revolution.css">
+      <link rel="stylesheet" type="text/css" href="css/revolution2.css">
+      <!-- swiper CSS -->
+      <link rel="stylesheet" type="text/css" href="css/swiper.min.css">
+      <link rel="stylesheet" type="text/css" href="css/animate.min.css">
+      <!-- Style CSS -->
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+      
+      <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+      <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+      <!--[if lt IE 9]>
+      <script src="js/ie9/html5shiv.min.js"></script>
+      <script src="js/ie9/respond.min.js"></script>
+      <![endif]-->
+   </head>
+   <body>
+      <div id="wapper">
+         <!-- header -->
+         <!-- PAGE HEADER -->
+         <header id="header" class="header-v4">
+            <div class="header-topbar">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-xs-12 col-md-6 col-sm-6 header-topbarleft">
+                        <div class="link-follow">
+                           <ul class="list-inline list-instyle">
+                              <li><a href=""><i  class="fa fa-skype social"></i></a></li>
+                              <li><a href=""><i  class="fa fa-facebook social"></i></a></li>
+                              <li><a href=""><i  class="fa fa-twitter social"></i></a></li>
+                           </ul>
+                        </div>
+                        <div class="language-currency">
+                           <div class="header-langgue">
+                              <div class="dropdown show-on-hover">
+                                 <button class="btn  dropdown-toggle" type="button"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                 ENG
+                                 </button>
+                                 <ul class="dropdown-menu" >
+                                    <li><a href="#"><img src="images/home4/en.png" alt="">English</a></li>
+                                    <li><a href="#"><img src="images/home4/fr.png" alt="">French</a></li>
+                                    <li><a href="#"><img src="images/home4/hu.png" alt="">Hungari</a></li>
+                                    <li><a href="#"><img src="images/home4/cm.png" alt=""> Cameroon</a></li>
+                                 </ul>
+                              </div>
+                           </div>
+                           <div class="header-currency">
+                              <div class="dropdown show-on-hover">
+                                 <button class="btn dropdown-toggle" type="button"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                 USD
+                                 </button>
+                                 <ul class="dropdown-menu" >
+                                    <li><a href="#">USD - Dola</a></li>
+                                    <li><a href="#">EUR - Euro</a></li>
+                                 </ul>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-xs-12 col-md-6 col-sm-6 header-topbarright">
+                        <div class="hotline">
+                           <p class="hotline">Hotline: 1-800-806-6453</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="header-content">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-md-3 col-sm-3 logo-mb">
+                        <div class="header-logo">
+                           <a href=""><img src="images/logo.png" class="img-responsive" alt="logo"></a>
+                        </div>
+                     </div>
+                     <div class="col-md-7 col-sm-6">
+                        <div class="header-search header-search1 ">
+                           <form  >
+                              <div class="input-group">
+                                 <div class="input-group-btn search-panel">
+                                    <button type="button" id="btn-search" class="btn  dropdown-toggle" data-toggle="dropdown">
+                                    <span id="search_concept">All Categories</span> <span class="caret"></span>
+                                    </button>
+                                    <ul class="dropdown-menu" role="menu">
+                                       <li><a href="#contains">Men</a></li>
+                                       <li><a href="#its_equal">Women</a></li>
+                                       <li><a href="#greather_than">New Arrival </a></li>
+                                       <li><a href="#less_than">Back in Stock </a></li>
+                                    </ul>
+                                 </div>
+                                 <input type="hidden" name="search_param" value="all" id="search_param">         
+                                 <input type="text" class="form-control" name="x" placeholder="Search ...">
+                                 <span class="input-group-btn">
+                                 <button data-toggle="tooltip" data-placement="top" title="Search" id="btn-submit" class="btn " type="button"><img src="images/icon-search.png" alt=""></button>
+                                 </span>
+                              </div>
+                           </form>
+                        </div>
+                     </div>
+                     <div class="col-md-2 col-sm-3 cart-search-user-mb">
+                        <div class="header-cart-user">
+                           <div class="search-mb">
+                              <a href="#" class="search-header4" title=""><img src="images/icon-search.png" alt=""></a>
+                           </div>
+                           <div class="header-user">
+                              <a href=""><img src="images/icon-user.png" alt=""></a>
+                           </div>
+                           <div class="header-cart ">
+                              <div class="mini-cart">
+                                 <a href="#">
+                                 <img src="images/icon-cart.png" alt="">
+                                 <span class="cart-qty">0</span>
+                                 </a>
+                                 <!-- cart-control -->
+                                 <div class="shop-item ">
+                                    <div class="widget_shopping_cart_content">
+                                       <ul class="cart-list list-unstyled">
+                                          <li class="clearfix">
+                                             <a class="p-thumb" href="single-product.html">
+                                             <img src="images/home4/products/300x300.jpg" alt="">
+                                             </a>
+                                             <div class="p-info">
+                                                <a class="p-title" href="#">Phasellus Vel Hendrerit</a>
+                                                <div class="price">
+                                                   <span class="amount">$35.00</span>
+                                                </div>
+                                                <span class="p-qty">QTY: 01</span>
+                                             </div>
+                                          </li>
+                                          <li class="clearfix">
+                                             <a class="p-thumb" href="single-product.html">
+                                             <img src="images/home4/products/300x300.jpg" alt="">
+                                             </a>
+                                             <div class="p-info">
+                                                <a class="p-title" href="#">Phasellus Vel Hendrerit</a>
+                                                <div class="price">
+                                                   <span class="amount">$35.00</span>
+                                                </div>
+                                                <span class="p-qty">QTY: 01</span>
+                                             </div>
+                                          </li>
+                                       </ul>
+                                       <p class="total"><strong>Total:</strong> <span class="amount">$105.00</span></p>
+                                       <p class="buttons">
+                                          <a class="button dark wc-forward" href="">Check out</a>
+                                       </p>
+                                    </div>
+                                 </div>
+                                 <!--end-cart-control -->
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </header>
+         <!-- /header -->
+         <!-- nav -->
+         <div class="header-v4">
+            <div class="header-nav">
+               <div id='cssmenu' >
+                  <ul>
+                     <li><a href='#'>Home</a></li>
+                     <li class=' has-sub'><a href='#'>Men</a>
+                        <ul>
+                           <li class='has-sub'><a href='#'>Basketball</a>
+                              <ul>
+                                 <li><a href='#'>Hyperdrunk</a></li>
+                                 <li><a href='#'>LeBron</a></li>
+                                 <li><a href='#'>Kobe</a></li>
+                              </ul>
+                           </li>
+                           <li class='has-sub'><a href='#'>Running</a>
+                              <ul>
+                                 <li><a href='#'>Tuned Speed</a></li>
+                                 <li><a href='#'>Natural Motion</a></li>
+                                 <li><a href='#'>Ultra Comfort</a></li>
+                              </ul>
+                           </li>
+                           <li class='has-sub'><a href='#'>Training</a>
+                              <ul>
+                                 <li><a href='#'>Fast</a></li>
+                                 <li><a href='#'>Dynamic</a></li>
+                                 <li><a href='#'>Strong</a></li>
+                              </ul>
+                           </li>
+                           <li class='has-sub'><a href='#'>Gold</a>
+                              <ul>
+                                 <li><a href='#'>Fl Impact</a></li>
+                                 <li><a href='#'>TW</a></li>
+                                 <li><a href='#'>Lunar</a></li>
+                              </ul>
+                           </li>
+                           <li class='has-sub'><a href='#'>Football</a>
+                              <ul>
+                                 <li><a href='#'>Vapor</a></li>
+                                 <li><a href='#'>Alpha</a></li>
+                                 <li><a href='#'>Lunarwarerly</a></li>
+                              </ul>
+                           </li>
+                           <li class='has-sub'><a href='#'>Baseball</a>
+                              <ul>
+                                 <li><a href='#'>TW 15</a></li>
+                                 <li><a href='#'>Luna Control 3</a></li>
+                                 <li><a href='#'>Lunarwarerly</a></li>
+                              </ul>
+                           </li>
+                        </ul>
+                     </li>
+                     <li><a href='#'>New Arrival</a></li>
+                     <li><a href='#'>Back in Stock</a></li>
+                     <li><a href='#'>Blog</a></li>
+                     <li><a href='#'>About Us</a></li>
+                     <li><a href='#'>Contact Us</a></li>
+                  </ul>
+               </div>
+               <div class="container">
+                  <div class="row">
+                     <div class="col-md-12">
+                        <nav class="navbar ">
+                          <div class="">
+                            <div class="collapse navbar-collapse">
+                               <ul class="nav navbar-nav">
+                                <li class="li-lever-0">
+                                   <a class="active" href="index_layout_01.html">
+                                        <span class="icon-home"></span>
+                                   </a>
+                                </li>
+                                <li class="li-lever-0">
+                                  <a href="#">Men </a>
+                                 <div class="sub-menu megamenu" >
+                                    <div class="">
+                                       <div class="row">
+                                          <div class="col-md-2">
+                                             <div class="sub-megamenu">
+                                                <div class="item-menu">
+                                                   <h4 class="menu-title"><a href="" title="">Basketball</a></h4>
+                                                   <ul>
+                                                      <li><a href="">Hyperdrunk</a></li>
+                                                      <li><a href="">LeBron</a></li>
+                                                      <li><a href="">Kobe</a></li>
+                                                   </ul>
+                                                   <div class="about-menu">
+                                                      <a href="" title="">All Basketball </a>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                          <div class="col-md-2">
+                                             <div class="sub-megamenu">
+                                                <div class="item-menu">
+                                                   <h4 class="menu-title"><a href="" title="">Running</a></h4>
+                                                   <ul>
+                                                      <li><a href="">Tuned  Speed</a></li>
+                                                      <li><a href="">Natural Motion</a></li>
+                                                      <li><a href="">Ultra fort</a></li>
+                                                   </ul>
+                                                   <div class="about-menu">
+                                                      <a href="" title="">All Running </a>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                          <div class="col-md-2">
+                                             <div class="sub-megamenu">
+                                                <div class="item-menu">
+                                                   <h4 class="menu-title"><a href="" title="">Training</a></h4>
+                                                   <ul>
+                                                      <li><a href="">Fast</a></li>
+                                                      <li><a href="">Dynamic</a></li>
+                                                      <li><a href="">Strong</a></li>
+                                                   </ul>
+                                                   <div class="about-menu">
+                                                      <a href="" title="">All Training </a>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                          <div class="col-md-2">
+                                             <div class="sub-megamenu">
+                                                <div class="item-menu">
+                                                   <h4 class="menu-title"><a href="" title="">Golf</a></h4>
+                                                   <ul>
+                                                      <li><a href="">Fl Impact</a></li>
+                                                      <li><a href="">TW</a></li>
+                                                      <li><a href="">Lunar</a></li>
+                                                   </ul>
+                                                   <div class="about-menu">
+                                                      <a href="" title="">All Gold </a>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                          <div class="col-md-2">
+                                             <div class="sub-megamenu">
+                                                <div class="item-menu">
+                                                   <h4 class="menu-title"><a href="" title="">Football</a></h4>
+                                                   <ul>
+                                                      <li><a href="">Vapor</a></li>
+                                                      <li><a href="">Alpha Pro</a></li>
+                                                      <li><a href="">Lunarwarerly</a></li>
+                                                   </ul>
+                                                   <div class="about-menu">
+                                                      <a href="" title="">All Football </a>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                          <div class="col-md-2">
+                                             <div class="sub-megamenu">
+                                                <div class="item-menu">
+                                                   <h4 class="menu-title"><a href="" title="">Baseball</a></h4>
+                                                   <ul>
+                                                      <li><a href="">Hyperdrunk</a></li>
+                                                      <li><a href="">LeBron</a></li>
+                                                      <li><a href="">Kobe</a></li>
+                                                   </ul>
+                                                   <div class="about-menu">
+                                                      <a href="" title="">All Baseball </a>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+
+                                       </div>
+                                    </div>
+                                 </div>
+                                </li >
+                                <li class="li-lever-0"><a href="">Women</a>
+                                </li>
+                                <li class="li-lever-0"><a href="">New Arrival</a>
+                                 <div class="sub-menu sub-menu-lever2 megamenu "  >
+                                    <div class="">
+                                       <div class="row">
+                                          <div class="col-md-3">
+                                       <div class="item-inner">
+                                          <div class="box-images">
+                                             <a class="product-image" href="product_single_post_01.html" title=""><img src="images/home4/products/300x300.jpg" alt=""></a>
+                                          </div>
+                                          <div class="product-shop">
+                                             <h2 class="product-name">
+                                             <a href="product_single_post_01.html" title="">Nike free trainer 3.0 v4</a>
+                                             </h2>
+                                             <div class="sub-name">Mens Trainning Shoe</div>
+                                             <div class="price-box">
+                                                <p class="special-price">
+                                                   <span class="price-label">Special Price</span>
+                                                   <span class="price">$120.00</span>
+                                                </p>
+                                                <p class="old-price">
+                                                   <span class="price-label">Special Price</span>
+                                                   <span class="price">$89.00</span>
+                                                </p>
+                                                
+                                             </div>
+                                             <ul class="add-to-links">
+                                                <li class="cart">
+                                                <a href="" class="view-link" title="">Add to bag</a>
+                                                </li>
+                                                <li class="wishlist"><a href="" class="link-wishlist" data-toggle="tooltip" data-placement="top" title="Add to Wishlist"><i class="fa fa-heart"></i></a></li>
+                                             </ul>
+                                          </div>
+                                          
+                                       </div>
+                                          </div>
+                                          <div class="col-md-3">
+                                       <div class="item-inner">
+                                          <div class="box-images">
+                                             <a class="product-image" href="product_single_post_01.html" title=""><img src="images/home4/products/300x300.jpg" alt=""></a>
+                                          </div>
+                                          <div class="product-shop">
+                                             <h2 class="product-name">
+                                             <a href="product_single_post_01.html" title="">Nike Lunaracer</a>
+                                             </h2>
+                                             <div class="sub-name">Mens Trainning Shoe</div>
+                                             <div class="price-box">
+                                                <p class="special-price">
+                                                   <span class="price-label">Special Price</span>
+                                                   <span class="price">$220.00</span>
+                                                </p>
+                                                <p class="old-price">
+                                                   <span class="price-label">Special Price</span>
+                                                   <span class="price">$89.00</span>
+                                                </p>
+                                                
+                                             </div>
+                                             <ul class="add-to-links">
+                                                <li class="cart">
+                                                <a href="" class="view-link" title="">Add to bag</a>
+                                                </li>
+                                                <li class="wishlist"><a href="" class="link-wishlist" data-toggle="tooltip" data-placement="top" title="Add to Wishlist"><i class="fa fa-heart"></i></a></li>
+                                             </ul>
+                                          </div>
+                                          
+                                       </div>
+                                          </div>
+                                          <div class="col-md-6">
+                                             <div class="bg-images-newarrival scale">
+                                                <img src="images/home4/541x408.jpg"  alt="">
+                                             </div>
+                                          </div>
+                                          
+
+                                       </div>
+                                    </div>
+                                 </div>
+                                </li>
+                                <li class="li-lever-0"><a href="">Back in Stock</a></li>
+                                <li class="li-lever-0"><a href="blog_layout_01.html">Blog</a></li>
+                                <li class="li-lever-0"><a href="about_layout_01.html">About Us</a></li>
+                                <li class="li-lever-0"><a href="contact_layout_01.html">Contact Us</a></li>
+                              </ul>
+                              
+                              
+                            </div><!-- /.navbar-collapse -->
+                          </div><!-- /.container-fluid -->
+                        </nav>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- end-nav -->
+         <section class="main-home">
+            <div class="container">
+               <div class="row">
+                  <!-- breadcrumb -->
+                  <div class="col-md-12">
+                     <div class="breadcrumb-grid ">
+                        <ul class="breadcrumb">
+                           <li><a href="#">Home</a></li>
+                           <li class="active"><a href="#">About</a></li>
+                        </ul>
+                     </div>
+                  </div>
+                  <!-- end breadcrumb -->
+               </div>
+               <div class="row">
+                  <div class="contact-page ">
+                     <div class="col-md-12">
+                        <div class="about-page">
+                           <div class="about-page-images">
+                              <img src="images/1920x500.jpg" alt="">
+                           </div>
+                           <div class="title-block">
+                              <h2>Our Story</h2>
+                              <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-md-6 col-sm-6">
+                        <div class="contact-page-left">
+                           <div class="title-block">
+                              <h2>Who are you ?</h2>
+                           </div>
+                           <div class="accordion accordion-v3 noborder collapse-right">
+                              <div class="panel-group " id="accordion" role="tablist" aria-multiselectable="true">
+                                 <div class="panel panel-default">
+                                    <div class="panel-heading" role="tab" id="headingOne">
+                                       <h4 class="panel-title">
+                                          <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                          OUR MISSON
+                                          </a>
+                                       </h4>
+                                    </div>
+                                    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                                       <div class="panel-body">
+                                          Ut enim ad minim et ven veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex commodo consequat. Duis aute irure dolor in reprehenderit in voluptate. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim et ven veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex commodo consequat.
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="panel panel-default">
+                                    <div class="panel-heading" role="tab" id="headingTwo">
+                                       <h4 class="panel-title">
+                                          <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                          WHAT WE DO ?
+                                          </a>
+                                       </h4>
+                                    </div>
+                                    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                                       <div class="panel-body">
+                                          Ut enim ad minim et ven veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex commodo consequat. Duis aute irure dolor in reprehenderit in voluptate. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim et ven veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex commodo consequat. 
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="panel panel-default">
+                                    <div class="panel-heading" role="tab" id="headingThree">
+                                       <h4 class="panel-title">
+                                          <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                          OUR CLIENTS
+                                          </a>
+                                       </h4>
+                                    </div>
+                                    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                                       <div class="panel-body">
+                                          Ut enim ad minim et ven veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex commodo consequat. Duis aute irure dolor in reprehenderit in voluptate. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim et ven veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex commodo consequat.
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-md-6 col-sm-6">
+                        <div class="contact-page-right">
+                           <div class="title-block">
+                              <h2>Our Skill</h2>
+                           </div>
+                           <div class="about-page-skills">
+                              <div class="barWrapper">
+                                 <span class="progressText"><B>PSD DESIGN</B></span>
+                                 <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" >   
+                                       <span  class="popOver" data-toggle="tooltip" data-placement="top" title="85%"> </span>     
+                                    </div>
+                                 </div>
+                                 <div class="barWrapper">
+                                    <span class="progressText"><B>WORDPRESS</B></span>
+                                    <div class="progress ">
+                                       <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" >
+                                          <span  class="popOver" data-toggle="tooltip" data-placement="top" title="75%"> </span>  
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="barWrapper">
+                                    <span class="progressText"><B>ECOMMERCE</B></span>
+                                    <div class="progress">
+                                       <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+                                          <span  class="popOver" data-toggle="tooltip" data-placement="top" title="95%"> </span>  
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="barWrapper">
+                                    <span class="progressText"><B>HTML&CSS</B></span>
+                                    <div class="progress">
+                                       <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                                          <span  class="popOver" data-toggle="tooltip" data-placement="top" title="80%"> </span>  
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-md-12">
+                        <div class="title-block">
+                           <h2>Crary team</h2>
+                        </div>
+                     </div>
+                     <div class="col-md-4 col-sm-6 col-xs-6 teamlist-mb">
+                        <div class="team-list">
+                           <div class="row">
+                              <div class="col-lg-5 col-md-5 col-xs-12">
+                                 <div class="team-header">
+                                    <img class="img-responsive" src="images/135x133.jpg" alt="">   
+                                 </div>
+                              </div>
+                              <div class="col-lg-7 col-md-7 col-xs-12 team-body-text">
+                                 <div class="team-body">
+                                    <div class="team-body-content">
+                                       <h3 class="team-name">john doe</h3>
+                                       <p class="team-position">Project Manager</p>
+                                    </div>
+                                    <div class="team-info">
+                                       <p>Email: hoanglam1607@gmail.com</p>
+                                       <p>Mobile:+84 988 992 085 </p>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-md-12 col-xs-12">
+                                 <div class="team-bottom">
+                                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+                                 </div>
+                                 <aside class="social-sidebar-right">
+                                    <div class="">
+                                       <ul>
+                                          <li><a href="" title=""><i class="fa fa-facebook social"></i></a></li>
+                                          <li><a href="" title=""><i class="fa fa-twitter social"></i></a></li>
+                                          <li><a href="" title=""><i class="fa fa-pinterest-p social"></i></a></li>
+                                          <li><a href="" title=""><i class="fa fa-google-plus social"></i></a></li>
+                                          <li><a href="" title=""><i class="fa fa-linkedin social"></i></a></li>
+                                       </ul>
+                                    </div>
+                                 </aside>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <!--  -->
+                     <div class="col-md-4 col-sm-6 col-xs-6 teamlist-mb">
+                        <div class="team-list">
+                           <div class="row">
+                              <div class="col-lg-5 col-md-5">
+                                 <div class="team-header">
+                                    <img class="img-responsive" src="images/135x133.jpg" alt="">   
+                                 </div>
+                              </div>
+                              <div class="col-lg-7 col-md-7 team-body-text">
+                                 <div class="team-body">
+                                    <div class="team-body-content">
+                                       <h3 class="team-name">john doe</h3>
+                                       <p class="team-position">Project Manager</p>
+                                    </div>
+                                    <div class="team-info">
+                                       <p>Email: hoanglam1607@gmail.com</p>
+                                       <p>Mobile:+84 988 992 085 </p>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-md-12">
+                                 <div class="team-bottom">
+                                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+                                 </div>
+                                 <aside class="social-sidebar-right">
+                                    <div class="">
+                                       <ul>
+                                          <li><a href="" title=""><i class="fa fa-facebook social"></i></a></li>
+                                          <li><a href="" title=""><i class="fa fa-twitter social"></i></a></li>
+                                          <li><a href="" title=""><i class="fa fa-pinterest-p social"></i></a></li>
+                                          <li><a href="" title=""><i class="fa fa-google-plus social"></i></a></li>
+                                          <li><a href="" title=""><i class="fa fa-linkedin social"></i></a></li>
+                                       </ul>
+                                    </div>
+                                 </aside>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <!--  -->
+                     <div class="col-md-4 col-sm-6 col-xs-6 teamlist-mb">
+                        <div class="team-list">
+                           <div class="row">
+                              <div class="col-lg-5 col-md-5">
+                                 <div class="team-header">
+                                    <img class="img-responsive" src="images/135x133.jpg" alt="">   
+                                 </div>
+                              </div>
+                              <div class="col-lg-7 col-md-7 team-body-text">
+                                 <div class="team-body">
+                                    <div class="team-body-content">
+                                       <h3 class="team-name">john doe</h3>
+                                       <p class="team-position">Project Manager</p>
+                                    </div>
+                                    <div class="team-info">
+                                       <p>Email: hoanglam1607@gmail.com</p>
+                                       <p>Mobile:+84 988 992 085 </p>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-md-12">
+                                 <div class="team-bottom">
+                                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+                                 </div>
+                                 <aside class="social-sidebar-right">
+                                    <div class="">
+                                       <ul>
+                                          <li><a href="" title=""><i class="fa fa-facebook social"></i></a></li>
+                                          <li><a href="" title=""><i class="fa fa-twitter social"></i></a></li>
+                                          <li><a href="" title=""><i class="fa fa-pinterest-p social"></i></a></li>
+                                          <li><a href="" title=""><i class="fa fa-google-plus social"></i></a></li>
+                                          <li><a href="" title=""><i class="fa fa-linkedin social"></i></a></li>
+                                       </ul>
+                                    </div>
+                                 </aside>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <!--  -->
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!-- footer -->
+         <footer class="footer-v4">
+            <div class="top-footer">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-lg-6 col-md-6 col-sm-6 top-footer-left contact-footer-left">
+                        <h2>Sports<span>wear</span></h2>
+                        <h5>Open: 8:00 AM - Close: 17:00 PM</h5>
+                        <p>Some people have hobbies. We have shoes. At Sportwear, shoes aren't just a part of our name, they are our passion. Here you'll find an incredible selection of fashionable...</p>
+                        <ul class="contact-adress">
+                           <li><span><img src="images/icon-maps.png" alt=""></span>Foley, 2601 South McKenzie Street</li>
+                           <li><span><img src="images/icon-phone.png" alt=""></span>1-800-806-6453</li>
+                           <li><span><img src="images/icon-evelop.png" alt=""></span>SportWear@domain.com</li>
+                        </ul>
+                     </div>
+                     <div class="col-lg-6 col-md-6 col-sm-6 top-footer-right ">
+                        <div class="newsletter-v2">
+                           <h2>Newsletter</h2>
+                           <form  id="newsletter-validate-detail">
+                              <div class="subcribe-info">
+                                 <input class="input-mail input-text required-entry validate-email" type="text" name="email" id="newsletter" title="Sign up for our newsletter" placeholder="Enter Your Mail...">
+                                 <button type="submit" title="Subscribe" class="button"><span>Subscribe</span></button>
+                              </div>
+                           </form>
+                           <p>Receive email-only deals, special offers &amp; product exclusives</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="footer">
+               <div class="header-footer">
+                  <div class="container">
+                     <div class="row">
+                        <div class="col-md-6 col-sm-6 footer-info-left  ">
+                           <div class="row">
+                              <div class="col-md-4 col-sm-4">
+                                 <h3>Category</h3>
+                                 <ul>
+                                    <li><a href="#">New Arival</a></li>
+                                    <li><a href="#">Featured Products</a></li>
+                                    <li><a href="#">Bestseller</a></li>
+                                    <li><a href="#">Onsale Products</a></li>
+                                    <li><a href="#">Special Products</a></li>
+                                 </ul>
+                              </div>
+                              <div class="col-md-4 col-sm-4">
+                                 <h3>Get Help</h3>
+                                 <ul>
+                                    <li><a href="#">Order Status</a></li>
+                                    <li><a href="#">Shipping and Delivery</a></li>
+                                    <li><a href="#">Returns</a></li>
+                                    <li><a href="#">Pay ment Options</a></li>
+                                    <li><a href="#">Contact Us</a></li>
+                                 </ul>
+                              </div>
+                              <div class="col-md-4 col-sm-4">
+                                 <h3>Link</h3>
+                                 <ul>
+                                    <li><a href="#">Home</a></li>
+                                    <li><a href="#">About us</a></li>
+                                    <li><a href="#">Back in Stock</a></li>
+                                    <li><a href="#">Blog </a></li>
+                                    <li><a href="#">Advanced Search</a></li>
+                                 </ul>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6 footer-info-right">
+                           <div class="footer-support">
+                              <h2>1-800-806-6453</h2>
+                              <p>Support <span>8:00</span> Am - <span>21:00</span> Pm</p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="bottom-footer">
+                  <div class="footer-copyright ">
+                     <div class="container">
+                        <div class="row">
+                              <div class="col-md-6 col-sm-7 col-60">
+                                 <address class="copyright">Copyright © 2016 by <a href="#">Sportwear </a>. All Rights Reserved.</address>
+                              </div>
+                              <div class="col-md-6 col-sm-5 col-40">
+                                 <div class="payment">
+                                    <a href="#" class="visa"><i class="fa fa-cc-visa"></i></a> 
+                                    <a href="#" class="american-express"><i class="fa fa-cc-amex"></i></a> 
+                                    <a href="#" class="discover"><i class="fa fa-cc-discover"></i></a>
+                                    <a href="#" class="mastercard"><i class="fa fa-cc-mastercard"></i></a>
+                                 </div>
+                              </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </footer>
+         <!--end footer -->
+      </div>
+      <!-- jQuery -->
+      <script src="js/jquery-1.11.min.js"></script>
+      <!-- Bootstrap JavaScript -->
+      <script src="js/bootstrap.min.js"></script>
+
+      <!-- menu-mobile JavaScript -->
+      <script src="js/menu-mobile.js"></script>
+      <!-- Wocommerce JavaScript -->
+      <script src="js/woocommerce.js"></script>
+      <!-- Swiper JavaScript -->
+      <script src="js/swiper.min.js"></script>
+      <script>
+         /** Tooltip **/ 
+          $('[data-toggle="tooltip"]').tooltip();
+         
+      </script>
+      <script>
+         //PAGE ABOUT
+            $(function () { 
+              $('.progress-bar [data-toggle="tooltip"]').tooltip({trigger: 'manual'}).tooltip('show');
+            });  
+         
+            $( window ).scroll(function() {   
+              // if($( window ).scrollTop() > 10){   scroll down abit and get the action   
+              $(".progress-bar").each(function(){
+                each_bar_width = $(this).attr('aria-valuenow');
+                $(this).width(each_bar_width + '%');
+              });
+                   
+             //  }  
+            });
+      </script>
+      <!-- main JavaScript -->
+      <script src="js/functions.js"></script>   
+   </body>
+</html>
