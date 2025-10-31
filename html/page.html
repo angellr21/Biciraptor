@@ -1,714 +1,226 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="">
+<meta name="description" content="Biciraptor: tienda especializada en bicicletas, repuestos, accesorios y servicios técnicos. Promovemos la cultura ciclista y las aventuras sobre dos ruedas.">
 <meta name="author" content="">
-<title>Agency - Start Bootstrap Theme</title>
-
-<!-- Master CSS -->
+<title>Biciraptor | Bicicletas, Repuestos y Taller</title>
 <link href="css/master.css" rel="stylesheet">
-
-<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-<!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-<!-- Switcher Only -->
-<link rel="stylesheet" id="switcher-css" type="text/css" href="plugins/switcher/css/switcher.css" media="all" />
-<!-- END Switcher Styles -->
-
-<!-- Demo Examples (For Module #3) -->
-<link rel="alternate stylesheet" type="text/css" href="plugins/switcher/css/pink.css" title="pink" media="all" />
-<link rel="alternate stylesheet" type="text/css" href="plugins/switcher/css/purple.css" title="purple" media="all" />
-<link rel="alternate stylesheet" type="text/css" href="plugins/switcher/css/blue.css" title="blue" media="all" />
-<link rel="alternate stylesheet" type="text/css" href="plugins/switcher/css/green.css" title="green" media="all" />
-<link rel="alternate stylesheet" type="text/css" href="plugins/switcher/css/red.css" title="red" media="all" />
-<link rel="alternate stylesheet" type="text/css" href="plugins/switcher/css/yellow.css" title="yellow" media="all" />
-<link rel="alternate stylesheet" type="text/css" href="plugins/switcher/css/orange.css" title="orange" media="all" />
-<link rel="alternate stylesheet" type="text/css" href="plugins/switcher/css/grey.css" title="grey" media="all" />
-<link rel="alternate stylesheet" type="text/css" href="plugins/switcher/css/dark.css" title="dark" media="all" />
-<link rel="alternate stylesheet" type="text/css" href="plugins/switcher/css/light.css" title="light" media="all" />
-<!-- END Demo Examples -->
-
-<!-- jQuery-->
-<script src="plugins/iview/js/jquery-1.7.1.min.js"></script>
-<!-- UI jQuery (For Module #5 and #6) -->
-<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/jquery-ui.js" type="text/javascript"></script>
-<!-- Bootstrap Core JavaScript -->
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A//www.w3.org/2000/svg%27%20viewBox%3D%270%200%2064%2064%27%3E%20%3Ccircle%20cx%3D%2732%27%20cy%3D%2732%27%20r%3D%2732%27%20fill%3D%27%2323311a%27/%3E%20%3Cpath%20d%3D%27M16%2040l8-20%2012%2012h12%27%20fill%3D%27none%27%20stroke%3D%27%237c9f29%27%20stroke-width%3D%276%27%20stroke-linecap%3D%27round%27%20stroke-linejoin%3D%27round%27/%3E%20%3Ccircle%20cx%3D%2720%27%20cy%3D%2744%27%20r%3D%276%27%20fill%3D%27%237c9f29%27/%3E%20%3Ccircle%20cx%3D%2744%27%20cy%3D%2744%27%20r%3D%276%27%20fill%3D%27%237c9f29%27/%3E%20%3C/svg%3E">
+<link href="config/brand.css" rel="stylesheet">
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/jquery-migrate-1.2.1.min.js"></script>
+<script src="js/jquery-ui.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/modernizr.js"></script>
 </head>
-
-
-<body>
-
-<div id="cd-nav"> <a href="#0" class="cd-nav-trigger">Menu<span></span></a>
-  <nav id="cd-main-nav">
-    <ul>
-      <li class="active"><a href="index.html"><span>Home</span> <small>X-Sport Home Page</small> </a></li>
-      <li><a href="blog.html"><span>NEWS & BLOG</span> <small>X-Sport News</small></a></li>
-      <li ><a href="post.html"><span>Post </span> <small>X-Sport Post </small></a></li>
-      <li><a href="shop.html" class="dropdown-toggle" data-toggle="dropdown"><span>Shop<b class="caret"></b></span> <small>SEE ALL MODELS</small></a>
-        <ul>
-         <li><a href="shop.html">Home</a></li>
-          <li><a href="catalog.html">Catalog</a></li>
-          <li><a href="product.html"  >Product</a></li>
-        </ul>
-      </li>
-      <li ><a href="page.html"><span>Page</span> <small>X-Sport page </small></a></li>
-    </ul>
-  </nav>
-</div>
-
-<!-- Start Switcher -->
-<div class="demo_changer">
-  <div class="demo-icon"> <i class="fa fa-cog fa-spin fa-2x"></i> </div>
-  <!-- end opener icon -->
-  <div class="form_holder">
-    <div class="row">
-      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-        <div class="predefined_styles">
-          <h4>Color Skins </h4>
-          <!-- MODULE #3 --> 
-          <a href="" rel="pink" class="styleswitch"><img src="plugins/switcher/images/icons/pink.png" alt=""></a> <a href="" rel="purple" class="styleswitch"><img src="plugins/switcher/images/icons/purple.png" alt=""></a> <a href="" rel="blue" class="styleswitch"><img src="plugins/switcher/images/icons/blue.png" alt=""></a> <a href="" rel="green" class="styleswitch"><img src="plugins/switcher/images/icons/green.png" alt=""></a> <a href="" rel="red" class="styleswitch"><img src="plugins/switcher/images/icons/red.png" alt=""></a> <a href="" rel="yellow" class="styleswitch"><img src="plugins/switcher/images/icons/yellow.png" alt=""></a> <a href="" rel="orange" class="styleswitch"><img src="plugins/switcher/images/icons/orange.png" alt=""></a> <a href="" rel="grey" class="styleswitch"><img src="plugins/switcher/images/icons/grey.png" alt=""></a> 
-          <!-- END MODULE #3 --> 
-          
-        </div>
-        <!-- end predefined_styles --> 
-      </div>
-      <!-- end col --> 
-      
-      <!-- end col --> 
+<body class="animated-all">
+<!-- Loader Landing Page -->
+<div id="ip-container" class="ip-container">
+  <header class="ip-header">
+    <div class="col-lg-12 text-center">
+      <div class="ip-logo"><span class="brand-wordmark brand-wordmark--loader">Biciraptor</span></div>
     </div>
-    <!-- end row --> 
-  </div>
-  <!-- end form_holder --> 
+    <div class="ip-loader">
+      <svg class="ip-inner" width="60px" height="60px" viewBox="0 0 80 80">
+        <path class="ip-loader-circlebg" d="M40,10C57.351,10,71,23.649,71,40.5S57.351,71,40.5,71 S10,57.351,10,40.5S23.649,10,39.3,10z"/>
+        <path id="ip-loader-circle" class="ip-loader-circle" d="M40,10C57.351,10,71,23.649,71,40.5S57.351,71,40.5,71 S10,57.351,10,40.5S23.649,10,40.5,10z"/>
+      </svg>
+    </div>
+  </header>
 </div>
-<!-- end demo_changer --> 
-<!-- End Switcher -->
-
-<div class="header">
-  <section class="no-bg-color-parallax parallax-black home-section text-center">
-    <div class="parallax-bg" style="background-image:url(media/bg/6.jpg) ;"></div>
+<!-- Loader end -->
+<header class="page-header">
+  <nav class="navbar navbar-default" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-nav" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html">
+          <span class="brand-wordmark brand-wordmark--header">Biciraptor</span>
+        </a>
+      </div>
+      <div class="collapse navbar-collapse" id="main-nav">
+        <ul class="nav navbar-nav navbar-right">
+          <li class=""><a href="index.html">Inicio</a></li>
+          <li class="dropdown "><a href="shop.html#bicicletas" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Bicicletas <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="shop.html#montana">Montaña</a></li>
+              <li><a href="shop.html#ruta">Ruta</a></li>
+              <li><a href="shop.html#urbanas">Urbanas</a></li>
+              <li><a href="shop.html#infantiles">Infantiles</a></li>
+            </ul>
+          </li>
+          <li class="dropdown "><a href="shop.html#repuestos" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Repuestos <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="shop.html#transmisiones">Transmisiones</a></li>
+              <li><a href="shop.html#frenos">Frenos</a></li>
+              <li><a href="shop.html#cauchos">Cauchos</a></li>
+              <li><a href="shop.html#rines">Rines</a></li>
+            </ul>
+          </li>
+          <li class=""><a href="shop.html#accesorios">Accesorios</a></li>
+          <li class="active"><a href="page.html#taller">Taller</a></li>
+          <li class=""><a href="page.html#nosotros">Nosotros</a></li>
+          <li class=""><a href="page.html#contacto">Contacto</a></li>
+          <li class=""><a href="index.html#eventos">Eventos</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="hero-page">
+    <div class="container">
+      <h1 class="page-heading">Biciraptor</h1>
+      <p>Conoce nuestro taller, equipo y horarios de atención</p>
+    </div>
+  </div>
+</header>
+<main>
+  <section id="taller" class="home-section" style="background-color:#f4f8ec;">
     <div class="container">
       <div class="row">
-        <div class="blog-logo text-left"><a href="index.html"> <img src="img/blog-logo.png" width="292" height="58" alt="logo"/></a></div>
+        <div class="col-md-6">
+          <h2 class="section-heading">Taller Biciraptor</h2>
+          <p>Ofrecemos servicio técnico profesional para bicicletas de todas las gamas. Mantenimiento preventivo, ajustes, lavados, revisiones y más.</p>
+          <ul>
+            <li>Planes de mantenimiento express y full service.</li>
+            <li>Servicio de lavado profundo y encerado protector.</li>
+            <li>Actualización de suspensiones, transmisiones y frenos hidráulicos.</li>
+            <li>Diagnóstico electrónico para grupos inalámbricos.</li>
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <div class="contact-panel">
+            <h4>Reserva tu cita</h4>
+            <p>Escríbenos al <a href="https://wa.me/584126613833" target="_blank" rel="noopener">WhatsApp</a> o visita nuestra tienda para agendar tu mantenimiento.</p>
+            <p>Contamos con entrega rápida y préstamo de bicicletas para que no detengas tus entrenamientos.</p>
+          </div>
+        </div>
       </div>
     </div>
   </section>
-  <div class="navbar yamm navbar-default ">
+  <section id="nosotros" class="home-section">
     <div class="container">
-      <div id="navbar-collapse-1" class="navbar-collapse collapse">
-        <ul class="nav navbar-nav">
-          <!-- Classic list -->
-          <li><a href="landing.html">Landing  Page</a></li>
-          <li ><a href="shop.html">Shop  Page</a></li>
-          <li ><a href="product.html">Product  Page</a></li>
-          <li class="active"><a href="blog.html">Blog Page</a></li>
-          <li><a href="post.html">Post  Page</a></li>
-          <!-- Classic dropdown -->
-          <li class="dropdown yamm-classic"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Classic<b class="caret"></b></a>
-            <ul class="dropdown-menu ">
-              <li><a  href="#"> QUECHUA FORCLAZ 500 SOFTSHELL HIKING WEAR </a></li>
-              <li><a  href="#"> FORCLAZ GOFTSHELL HIKING WEAR</a></li>
-              <li><a  href="#"> SOFTSHELL HIKING 300 WEAR </a></li>
-              <li><a  href="#"> Paenitet me789 quod tultus plastic</a></li>
-              <li><a  href="#"> FORCLAZ 500 SOFTSHELL HIKING WEAR</a></li>
-              <li><a  href="#"> QUECHUA FORCLAZ 500LL HIKING WEAR</a> </li>
-            </ul>
-          </li>
-          <!-- Pictures -->
-          <li class="dropdown yamm-fw"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Mega Menu<b class="caret"></b></a>
-            <ul class="dropdown-menu">
-              <li>
-                <div class="yamm-content">
-                  <div class="row">
-                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                      <h5> SPORTS & FITNESS </h5>
-                      <ul>
-                        <li> <a href="#"> Bicycles & Accessories</a></li>
-                        <li> <a href="#">Badminton</a></li>
-                        <li> <a href="#">Fitness Accessories</a></li>
-                        <li> <a href="#">Fitness Equipment</a></li>
-                        <li> <a href="#">Outdoor Adventure Gear</a></li>
-                        <li> <a href="#">Active Wear</a></li>
-                        <li> <a href="#">Swimming Equipments</a></li>
-                        <li> <a href="#">Water Sports</a></li>
-                      </ul>
-                    </div>
-                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                      <h5> NUTRITION</h5>
-                      <ul>
-                        <li> <a href="#"> Top Proteins</a></li>
-                        <li> <a href="#">JSB Massagers</a></li>
-                        <li> <a href="#">Horlicks</a></li>
-                        <li> <a href="#">AccuChek</a></li>
-                        <li> <a href="#">Omron BP Monitors</a></li>
-                        <li> <a href="#">Herbalife Protein</a></li>
-                        <li> <a href="#">Apollo Munich</a></li>
-                        <li> <a href="#">Weight Gainers</a></li>
-                      </ul>
-                    </div>
-                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                      <h5> NEW ARRIVALS</h5>
-                      <ul>
-                        <li> <a href="#">Heart & Blood Pressure</a></li>
-                        <li> <a href="#">Weighing Scale & Daily Needs</a></li>
-                        <li> <a href="#">Massagers</a></li>
-                        <li> <a href="#">Supports & Rehabilitation</a></li>
-                        <li> <a href="#">Sexual WellnessHOT</a></li>
-                        <li> <a href="#">Shop Privately At Home</a></li>
-                        <li> <a href="#">E-Cigarette & E-Shisha</a></li>
-                        <li> <a href="#">Alternative Health Therapy</a></li>
-                      </ul>
-                    </div>
-                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12"> <a href="#" class="thumbnail"><img src="media/menu/promo.jpg" width="270" height="270" alt="img"/></a> </div>
-                  </div>
-                  <div class="row">
-                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12"> <a href="#" class="thumbnail"> <img src="media/menu/pormo2.jpg" width="350" height="140" alt="img"/> </a> </div>
-                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12"> <a href="#" class="thumbnail"> <img src="media/menu/pormo3.jpg" width="350" height="140" alt="img"/> </a> </div>
-                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12"> <a href="#" class="thumbnail"> <img src="media/menu/pormo4.jpg" width="350" height="140" alt="img"/> </a> </div>
-                  </div>
-                </div>
-              </li>
-            </ul>
-          </li>
-        </ul>
+      <div class="row">
+        <div class="col-md-6">
+          <h2 class="section-heading">Nosotros</h2>
+          <p>Biciraptor nació para promover el ciclismo y brindar la mejor experiencia sobre dos ruedas. Somos un equipo apasionado por el deporte y la aventura.</p>
+          <p>Organizamos rutas de montaña, rodadas urbanas y clínicas de manejo para que cada ciclista mejore sus habilidades y viva la ciudad desde otra perspectiva.</p>
+        </div>
+        <div class="col-md-6">
+          <div class="section-illustration section-illustration--team" aria-hidden="true"></div>
+        </div>
       </div>
     </div>
-  </div>
-</div>
-<div class="page-header">
-  <div class="container">
-    <h3 class="page-title float-left">Blog</h3>
-    <ol class="breadcrumb float-right">
-      <li><a href="#">Blog</a></li>
-      <li class="active">Post</li>
-    </ol>
-  </div>
-</div>
-<main class="section" id="main">
-  <div class="container">
-
-
-
-
-
-<div class="price-table">
-
-
-
-<div class="ptable-heading">
-
-<div class="ptable-our-packet" ><i class="fa fa-arrow-circle-down"></i>
-
-
- OUR PACKAGES</div>
-
-
-<div class="ptable-more-info">
-FOR MORE INFORMATION & 
-CUSTOM PLANS PLEASE CALL
-
-</div>
-
-
-<div class="ptable-phone">0200-123-45678</div>
-
-</div>
-
-   <div class="table-line">
-   
-   
-   
-  
-          <div class="price-plan-wrap">
-            <h3> 1  WEEK </h3>
-            <div class="price-plan"> $69.00 </div>
-          </div>
-
-
-          <div class="ptable-offer-item">
-            <div class="flex-item"> <strong>6</strong> CLASSES
-PER WEEK </div>
-          </div>
-          <div class="ptable-offer-item">
-            <div class="flex-item"> <strong>12</strong> DEDICATED
-TRAINER </div>
-          </div>
-          <div class="ptable-offer-item">
-            <div class="flex-item"> <strong>4</strong> MORNING
-CLASSES</div>
-          </div>
-          <div class="ptable-offer-item">
-            <div class="flex-item"> <strong>30</strong> SPORTS
-PRACTICES </div>
-          </div>
-          <div class="ptable-offer-item">
-            <div class="flex-item"> <strong>2</strong> CLUB
-DISCOUNTS </div>
-          </div>
- 
-          <div class="ptable-offer-button"> <a href="#">SUBSCRIBE <small>*some other info</small> </a> </div>
-    
-      </div>
-      
-      
-      <div class="table-line">
-   
-   
-   
-  
-          <div class="price-plan-wrap">
-            <h3> 1  MONTH</h3>
-            <div class="price-plan"> $119.00 </div>
-          </div>
-
-
-          <div class="ptable-offer-item">
-            <div class="flex-item"> <strong>23</strong> CLASSES
-PER WEEK </div>
-          </div>
-          <div class="ptable-offer-item">
-            <div class="flex-item"> <strong>12</strong> DEDICATED
-TRAINER </div>
-          </div>
-          <div class="ptable-offer-item">
-            <div class="flex-item"> <strong>14</strong> MORNING
-CLASSES</div>
-          </div>
-          <div class="ptable-offer-item">
-            <div class="flex-item"> <strong>23</strong> SPORTS
-PRACTICES </div>
-          </div>
-          <div class="ptable-offer-item">
-            <div class="flex-item"> <strong>23</strong> CLUB
-DISCOUNTS </div>
-          </div>
- 
-          <div class="ptable-offer-button"> <a href="#">SUBSCRIBE <small>*some other info</small> </a> </div>
-    
-      </div>
-      
-      
-      <div class="table-line active">
-   
-   
-   
-  
-          <div class="price-plan-wrap">
-            <h3> 6  MONTHS</h3>
-            <div class="price-plan"> $189.00 </div>
-          </div>
-
-
-          <div class="ptable-offer-item">
-            <div class="flex-item"> <strong>23</strong> CLASSES
-PER WEEK </div>
-          </div>
-          <div class="ptable-offer-item">
-            <div class="flex-item"> <strong>12</strong> DEDICATED
-TRAINER </div>
-          </div>
-          <div class="ptable-offer-item">
-            <div class="flex-item"> <strong>14</strong> MORNING
-CLASSES</div>
-          </div>
-          <div class="ptable-offer-item">
-            <div class="flex-item"> <strong>23</strong> SPORTS
-PRACTICES </div>
-          </div>
-          <div class="ptable-offer-item">
-            <div class="flex-item"> <strong>23</strong> CLUB
-DISCOUNTS </div>
-          </div>
- 
-          <div class="ptable-offer-button"> <a href="#">SUBSCRIBE <small>*some other info</small> </a> </div>
-    
-      </div>
-      
-      
-      <div class="table-line">
-   
-   
-   
-  
-          <div class="price-plan-wrap">
-            <h3> 1 YEAR</h3>
-            <div class="price-plan"> $189.00 </div>
-          </div>
-
-
-          <div class="ptable-offer-item">
-            <div class="flex-item"> <strong>343</strong> CLASSES
-PER WEEK </div>
-          </div>
-          <div class="ptable-offer-item">
-            <div class="flex-item"> <strong>342</strong> DEDICATED
-TRAINER </div>
-          </div>
-          <div class="ptable-offer-item">
-            <div class="flex-item"> <strong>344</strong> MORNING
-CLASSES</div>
-          </div>
-          <div class="ptable-offer-item">
-            <div class="flex-item"> <strong>243</strong> SPORTS
-PRACTICES </div>
-          </div>
-          <div class="ptable-offer-item">
-            <div class="flex-item"> <strong>343</strong> CLUB
-DISCOUNTS </div>
-          </div>
- 
-          <div class="ptable-offer-button"> <a href="#">SUBSCRIBE <small>*some other info</small> </a> </div>
-    
-      </div>
-      
-      
-            </div>
- 
-    <h3>Basic example</h3>
-    <table class="table">
-      <thead>
-        <tr>
-          <th>#</th>
-          <th>First Name</th>
-          <th>Last Name</th>
-          <th>Username</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>1</td>
-          <td>Mark</td>
-          <td>Otto</td>
-          <td>@mdo</td>
-        </tr>
-        <tr>
-          <td>2</td>
-          <td>Jacob</td>
-          <td>Thornton</td>
-          <td>@fat</td>
-        </tr>
-        <tr>
-          <td>3</td>
-          <td>Larry</td>
-          <td>the Bird</td>
-          <td>@twitter</td>
-        </tr>
-      </tbody>
-    </table>
-    <div class="clearfix"> </div>
-    <hr>
-    <h3>Striped rows</h3>
-    <table class="table table-striped">
-      <thead>
-        <tr>
-          <th>#</th>
-          <th>First Name</th>
-          <th>Last Name</th>
-          <th>Username</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>1</td>
-          <td>Mark</td>
-          <td>Otto</td>
-          <td>@mdo</td>
-        </tr>
-        <tr>
-          <td>2</td>
-          <td>Jacob</td>
-          <td>Thornton</td>
-          <td>@fat</td>
-        </tr>
-        <tr>
-          <td>3</td>
-          <td>Larry</td>
-          <td>the Bird</td>
-          <td>@twitter</td>
-        </tr>
-      </tbody>
-    </table>
-    <div class="clearfix"> </div>
-    <hr>
-    <h3>Contextual classes</h3>
-    <table class="table">
-      <thead>
-        <tr>
-          <th>#</th>
-          <th>Column heading</th>
-          <th>Column heading</th>
-          <th>Column heading</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr class="active">
-          <td>1</td>
-          <td>Column content</td>
-          <td>Column content</td>
-          <td>Column content</td>
-        </tr>
-        <tr>
-          <td>2</td>
-          <td>Column content</td>
-          <td>Column content</td>
-          <td>Column content</td>
-        </tr>
-        <tr class="success">
-          <td>3</td>
-          <td>Column content</td>
-          <td>Column content</td>
-          <td>Column content</td>
-        </tr>
-        <tr>
-          <td>4</td>
-          <td>Column content</td>
-          <td>Column content</td>
-          <td>Column content</td>
-        </tr>
-        <tr class="warning">
-          <td>5</td>
-          <td>Column content</td>
-          <td>Column content</td>
-          <td>Column content</td>
-        </tr>
-        <tr>
-          <td>6</td>
-          <td>Column content</td>
-          <td>Column content</td>
-          <td>Column content</td>
-        </tr>
-        <tr class="danger">
-          <td>7</td>
-          <td>Column content</td>
-          <td>Column content</td>
-          <td>Column content</td>
-        </tr>
-      </tbody>
-    </table>
-    <div class="clearfix"> </div>
-    <hr>
-    <h3>Bordered table</h3>
-    <table class="table table-bordered">
-      <thead>
-        <tr>
-          <th>#</th>
-          <th>First Name</th>
-          <th>Last Name</th>
-          <th>Username</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td rowspan="2">1</td>
-          <td>Mark</td>
-          <td>Otto</td>
-          <td>@mdo</td>
-        </tr>
-        <tr>
-          <td>Mark</td>
-          <td>Otto</td>
-          <td>@TwBootstrap</td>
-        </tr>
-        <tr>
-          <td>2</td>
-          <td>Jacob</td>
-          <td>Thornton</td>
-          <td>@fat</td>
-        </tr>
-        <tr>
-          <td>3</td>
-          <td colspan="2">Larry the Bird</td>
-          <td>@twitter</td>
-        </tr>
-      </tbody>
-    </table>
-    <div class="clearfix"> </div>
-    <hr>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus aliquet erat quis nibh vehicula, condimentum placerat lectus iaculis. Nam ultricies nisi vel ligula pulvinar, quis dapibus velit iaculis. In hac habitasse platea dictumst. In vitae nunc tincidunt, euismod nibh sit amet, convallis arcu. Vestibulum feugiat auctor auctor.</p>
-    <div class="col-lg-6 col-md-6 col-sm-12">
-      <h1>h1. Heading 1</h1>
-      <h2>h2. Heading 2</h2>
-      <h3>h3. Heading 3</h3>
-      <h4>h4. Heading 4</h4>
-      <h5>h5. Heading 5</h5>
-      <h6>h6. Heading 6</h6>
-    </div>
-    <div class="col-lg-6 col-md-6 col-sm-12">
-      <h1><a href="#">h1. Heading 1 with link</a></h1>
-      <h2><a href="#">h2. Heading 2 with link</a></h2>
-      <h3><a href="#">h3. Heading 3 with link</a></h3>
-      <h4><a href="#">h4. Heading 4 with link</a></h4>
-      <h5><a href="#">h5. Heading 5 with link</a></h5>
-      <h6><a href="#">h6. Heading 6 with link</a></h6>
-    </div>
-    <div class="clearfix"> </div>
-    <hr>
-    <div class="col-lg-6 col-md-6 col-sm-12">
-      <ol>
-        <li>Lorem ipsum dolor sit amet</li>
-        <li>Lorem ipsum dolor sit amet</li>
-        <li>Lorem ipsum dolor sit amet
-          <ol>
-            <li>Lorem ipsum dolor sit amet</li>
-            <li>Lorem ipsum dolor sit amet</li>
-            <li>Lorem ipsum dolor sit amet</li>
-            <li>Lorem ipsum dolor sit amet
-              <ol>
-                <li>Lorem ipsum dolor sit amet</li>
-                <li>Lorem ipsum dolor sit amet</li>
-                <li>Lorem ipsum dolor sit amet</li>
-                <li>Lorem ipsum dolor sit amet</li>
-                <li>Lorem ipsum dolor sit amet</li>
-                <li>Lorem ipsum dolor sit amet</li>
-              </ol>
-            </li>
-            <li>Lorem ipsum dolor sit amet</li>
-            <li>Lorem ipsum dolor sit amet</li>
-          </ol>
-        </li>
-        <li>Lorem ipsum dolor sit amet</li>
-        <li>Lorem ipsum dolor sit amet</li>
-        <li>Lorem ipsum dolor sit amet</li>
-      </ol>
-    </div>
-    <div class="col-lg-6 col-md-6 col-sm-12">
-      <ul>
-        <li>Lorem ipsum dolor sit amet
-          <ul>
-            <li>Lorem ipsum dolor sit amet</li>
-            <li>Lorem ipsum dolor sit amet</li>
-            <li>Lorem ipsum dolor sit amet
-              <ul>
-                <li>Lorem ipsum dolor sit amet</li>
-                <li>Lorem ipsum dolor sit amet</li>
-                <li>Lorem ipsum dolor sit amet</li>
-                <li>Lorem ipsum dolor sit amet</li>
-                <li>Lorem ipsum dolor sit amet</li>
-                <li>Lorem ipsum dolor sit amet</li>
-              </ul>
-            </li>
-            <li>Lorem ipsum dolor sit amet</li>
-            <li>Lorem ipsum dolor sit amet</li>
-            <li>Lorem ipsum dolor sit amet</li>
+  </section>
+  <section id="contacto" class="home-section" style="background-color:#f4f8ec;">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h3 class="section-heading">Horario</h3>
+          <ul class="schedule">
+            <li>Lunes a sábado 08:30–18:30</li>
+            <li>Domingos 09:00–13:00</li>
           </ul>
-        </li>
-        <li>Lorem ipsum dolor sit amet</li>
-        <li>Lorem ipsum dolor sit amet</li>
-        <li>Lorem ipsum dolor sit amet</li>
-        <li>Lorem ipsum dolor sit amet</li>
-        <li>Lorem ipsum dolor sit amet</li>
-      </ul>
+          <h3 class="section-heading">Dirección</h3>
+          <p>Avenida Fuerzas Armadas, Centro Comercial Centro Norte (al lado de Helados Cali).</p>
+        </div>
+        <div class="col-md-6 google-map">
+          <iframe src="https://maps.google.com/maps?q=Avenida%20Fuerzas%20Armadas%20Centro%20Norte&t=&z=15&ie=UTF8&iwloc=&output=embed" allowfullscreen></iframe>
+        </div>
+      </div>
     </div>
-    <div class="clearfix"> </div>
-    <hr>
-    <h3>Paragraph</h3>
-    <p>Lorem ipsum dolor sit amet, a mark here adipisicing elit. Atque, iusto, minus sequi natus nesciunt rerum tenetur corrupti autem officiis fugiat expedita laudantium ea aspernatur</p>
-    <p><strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam, velit, facere eos molestias rerum nesciunt consequatur voluptate minus quod</strong></p>
-    <p><em>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, vitae, dolore, ratione, neque deleniti officia atque dignissimos porro.</em></p>
-    <p><strong class="text-success">Consectetur adipisicing elit</strong>. Corrupti, aliquam, voluptates, nulla, blanditiis totam voluptatem <strong class="text-danger">voluptatum quod ipsa debitis non</strong> ab odio natus.</p>
-    <h3>Lead text</h3>
-    <p class="lead">Quisquam, dolorum, iusto iste voluptates rerum ea quas expedita.</p>
-    <h3>Small text</h3>
-    <p><small>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis et ullam libero repellendus voluptatibus obcaecati magni id nulla dolores nesciunt. Quasi quisquam facilis nobis ullam rem deleniti vero consectetur earum.</small></p>
-    <hr>
-    <blockquote class="pull-right">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-      <small>Someone famous in <cite title="Source Title">Source Title</cite></small></blockquote>
-    <div class="clearfix"> </div>
-    <hr>
-    <blockquote>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-      <small>Someone famous in <cite title="Source Title">Source Title</cite></small></blockquote>
-  </div>
+  </section>
 </main>
 <footer class="footer">
-  <section class="no-bg-color-parallax parallax-black home-section text-center" >
-    <div style="background-image:url(media/bg/5.jpg) ;" class="parallax-bg"></div>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-4">
-          <h3 class="fot-title">CLUB OPENING HOURS</h3>
-          <table>
-            <tr>
-              <th>MONDAY</th>
-              <td>09:00 AM  -  06:00 PM </td>
-            </tr>
-            <tr>
-              <th>TUESDAY</th>
-              <td>09:00 AM  -  06:00 PM </td>
-            </tr>
-            <tr>
-              <th>WEDNESDAY</th>
-              <td>09:00 AM  -  06:00 PM </td>
-            </tr>
-            <tr>
-              <th>THURSDAY</th>
-              <td>09:00 AM  -  06:00 PM </td>
-            </tr>
-            <tr>
-              <th>FRIDAY</th>
-              <td>09:00 AM  -  06:00 PM </td>
-            </tr>
-            <tr>
-              <th> SATURDAY</th>
-              <td>09:00 AM  -  06:00 PM </td>
-            </tr>
-          </table>
-        </div>
-        <div class="col-lg-4">
-          <div class="big-logo"> <img src="img/big-logo.png" width="225" height="178" alt="img"/> </div>
-          <ul class="social-links">
-            <li><a href="https://www.facebook.com/" target="_blank"><i class="icomoon-facebook"></i></a></li>
-            <li class=""><a href="https://twitter.com/" target="_blank"><i class="icomoon-twitter"></i></a></li>
-            <li><a href="https://www.google.com/" target="_blank"><i class="icomoon-googleplus"></i></a></li>
-            <li><a href="https://www.pinterest.com/" target="_blank"><i class="icomoon-pinterest"></i></a></li>
-          </ul>
-        </div>
-        <div class="col-lg-4">
-          <h3 class="fot-title"> PHOTOS FROM FLICKR</h3>
-          <ul id="flickr-feed" class="flickr-feed">
-          </ul>
-        </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 col-sm-6">
+        <div class="brand-badge">Biciraptor</div>
+        <p>Biciraptor: bicicletas, repuestos, accesorios y un taller que respira ciclismo. Te acompañamos en cada etapa de tus recorridos.</p>
+      </div>
+      <div class="col-md-4 col-sm-6">
+        <h4 class="section-title">Contacto</h4>
+        <ul class="list-unstyled footer-contact">
+          <li><strong>Dirección</strong>Avenida Fuerzas Armadas, Centro Comercial Centro Norte (al lado de Helados Cali)</li>
+          <li><strong>WhatsApp</strong><a href="https://wa.me/584126613833" target="_blank" rel="noopener">wa.me/584126613833</a></li>
+          <li><strong>Correo</strong><a href="mailto:biciraptor@gmail.com">biciraptor@gmail.com</a></li>
+          <li><strong>Instagram</strong><a href="https://www.instagram.com/biciraptorstore/" target="_blank" rel="noopener">@biciraptorstore</a></li>
+        </ul>
+      </div>
+      <div class="col-md-4 col-sm-12">
+        <h4 class="section-title">Horario</h4>
+        <ul class="list-unstyled schedule">
+          <li>Lunes a sábado 08:30–18:30</li>
+          <li>Domingos 09:00–13:00</li>
+        </ul>
+        <p>Únete a nuestras rutas y eventos mensuales para disfrutar Caracas sobre dos ruedas.</p>
       </div>
     </div>
-  </section>
+    <div class="row" style="margin-top:20px;">
+      <div class="col-xs-12 text-center">
+        <p>&copy; 2025 Biciraptor. Todos los derechos reservados.</p>
+      </div>
+    </div>
+  </div>
 </footer>
-
-<!-- Bootstrap Select Tool (For Module #4) --> 
-<script src="plugins/switcher/js/bootstrap-select.js"></script> 
-<script src="plugins/switcher/js/evol.colorpicker.min.js" type="text/javascript"></script> 
-<script src="plugins/switcher/js/dmss.js"></script> 
-
-<!-- All Scripts & Plugins --> 
-<script type="text/javascript" src="js/blazy.min.js"></script> 
-<script src="js/jqBootstrapValidation.js"></script> 
-<script src="js/contact_me.js"></script> 
-<script src="js/waypoints.min.js"></script> 
-<script src="js/ios-orientationchange-fix.js"></script> 
-<script src="plugins/selectbox/jquery.selectbox-0.2.js"></script> 
-<script type="text/javascript" src="plugins/iview/js/raphael-min.js"></script> 
-<script type="text/javascript" src="plugins/iview/js/jquery.easing.js"></script> 
-<script type="text/javascript" src="plugins/isotope/jquery.isotope.min.js"></script> 
-<script type="text/javascript" src="plugins/sly/sly.min.js"></script> 
-<script src="plugins/bxslider/jquery.bxslider.min.js"></script> 
-<script src="plugins/flexslider/jquery.flexslider-min.js"></script> 
-<script src="plugins/events/masonry.pkgd.min.js"></script> 
-<script src="plugins/events/events.js"></script> 
-<script src="plugins/countdown/jquery.countdown.min.js" ></script> 
-<script src="plugins/points/points.js" ></script> 
-<script src="plugins/jflickrfeed/jflickrfeed.min.js" ></script> 
-<script src="plugins/nouislider/jquery.nouislider.min.js"></script> 
-<script type="text/javascript" src="plugins/magnific/jquery.magnific-popup.js"></script> 
-<script src="plugins/prettyphoto/js/jquery.prettyPhoto.js"></script> 
-<script src="plugins/smart-menu/smart-menu.js"></script> 
+<!-- AlLL SCRIPTS & PLUGINS -->
+<!--Blazy image-->
+<script type="text/javascript" src="js/blazy.min.js"></script>
+<!--Waypoint-->
+<script src="js/waypoints.min.js"></script>
+<!--Ios Fix-->
+<script src="js/ios-orientationchange-fix.js"></script>
+<!--Element form Styled-->
+<script src="plugins/selectbox/jquery.selectbox-0.2.js"></script>
+<!--Sly Slider-->
+<script type="text/javascript" src="plugins/sly/sly.min.js"></script>
+<!--Bx Slider-->
+<script src="plugins/bxslider/jquery.bxslider.min.js"></script>
+<!--Flex Slider-->
+<script src="plugins/flexslider/jquery.flexslider-min.js"></script>
+<!-- Flickr-->
+<script src="plugins/jflickrfeed/jflickrfeed.min.js"></script>
+<!-- Catalog Price-->
+<script src="plugins/nouislider/jquery.nouislider.min.js"></script>
+<!-- Magnific-->
+<script type="text/javascript" src="plugins/magnific/jquery.magnific-popup.js"></script>
+<!-- Pretty Photo -->
+<script src="plugins/prettyphoto/js/jquery.prettyPhoto.js"></script>
+<!-- SMart Menu -->
+<script src="plugins/smart-menu/smart-menu.js"></script>
+<!-- User agent -->
+<script type="text/javascript" src="js/cssua.min.js"></script>
+<!-- Loader -->
+<script src="plugins/loader/js/classie.js"></script>
+<script src="plugins/loader/js/pathLoader.js"></script>
+<script src="plugins/loader/js/main.js"></script>
+<!--Catalog Points-->
+<script src="plugins/points/points.js" ></script>
+<!--Isotope filter-->
+<script type="text/javascript" src="plugins/isotope/jquery.isotope.min.js"></script>
+<!--Contact form-->
+<script src="js/jqBootstrapValidation.js"></script>
+<script src="js/contact_me.js"></script>
+<!-- SMart Grid-->
+<script src="plugins/events/masonry.pkgd.min.js"></script>
+<!-- Events -->
+<script src="plugins/events/events.js"></script>
+<!--Count Down-->
+<script src="plugins/countdown/jquery.countdown.min.js" ></script>
+<!-- Newsletter -->
+<script src="plugins/newsletter/main.js" ></script>
+<!-- Bio -->
+<script type="text/javascript" src="plugins/bio/js/bio.js"></script>
+<!--IVIEW-->
+<script src="plugins/iview/js/iview.js"></script>
+<!--Scripts-->
 <script type="text/javascript" src="js/scripts.js"></script>
 </body>
 </html>
