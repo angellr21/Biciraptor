@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: http://localhost/BiciRaptor/html/sitemap.xml
