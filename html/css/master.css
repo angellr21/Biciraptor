@@ -12,6 +12,7 @@ Primary use:	Xtreme Sport
 
 
 /* MAIN CSS */
+@import url('brand.css');
 @import url('bootstrap.css');
 @import url('theme.css');
 @import url('hover-min.css');
